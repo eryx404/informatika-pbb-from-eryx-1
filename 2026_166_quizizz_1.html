@@ -1,0 +1,2600 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ИНФОРМАТИКА ПББ 2026 — РЕАЛ 166 QUIZIZZ (1-БӨЛІМ)</title>
+  <style>
+    /* =========================================================================
+       QUIZIZZ DARK NEON DESIGN SYSTEM — 100% STANDALONE (ZERO EXTERNAL DEPS)
+       ========================================================================= */
+    :root {
+      --bg-main: #090d1a;
+      --bg-deep: #050811;
+      --card-bg: rgba(18, 25, 48, 0.9);
+      --card-solid: #121930;
+      --border: rgba(124, 58, 237, 0.3);
+      --border-hi: rgba(6, 182, 212, 0.65);
+
+      --purple: #7c3aed;
+      --purple-l: #a78bfa;
+      --cyan: #06b6d4;
+      --cyan-l: #67e8f9;
+      --emerald: #10b981;
+      --amber: #f59e0b;
+      --rose: #f43f5e;
+      --red: #ef4444;
+
+      --tile-a: #2563eb; --tile-a-sh: #1d4ed8;
+      --tile-b: #0d9488; --tile-b-sh: #0f766e;
+      --tile-c: #d97706; --tile-c-sh: #b45309;
+      --tile-d: #e11d48; --tile-d-sh: #be123c;
+
+      --text: #f8fafc;
+      --soft: #cbd5e1;
+      --muted: #94a3b8;
+
+      --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: var(--font-sans);
+      background-color: var(--bg-main);
+      background-image:
+        radial-gradient(circle at 8% 8%, rgba(124, 58, 237, 0.24) 0%, transparent 38%),
+        radial-gradient(circle at 92% 10%, rgba(6, 182, 212, 0.17) 0%, transparent 36%),
+        radial-gradient(circle at 86% 90%, rgba(244, 63, 94, 0.13) 0%, transparent 38%),
+        radial-gradient(circle at 14% 88%, rgba(16, 185, 129, 0.13) 0%, transparent 36%);
+      background-attachment: fixed;
+      color: var(--text);
+      min-height: 100vh;
+      line-height: 1.5;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    button, input { font-family: inherit; color: inherit; }
+    button { cursor: pointer; border: none; background: none; }
+    button:disabled { opacity: 0.4; cursor: not-allowed !important; transform: none !important; }
+    code, pre, .mono { font-family: var(--font-mono); }
+    .hidden { display: none !important; }
+
+    ::-webkit-scrollbar { width: 8px; height: 8px; }
+    ::-webkit-scrollbar-track { background: var(--bg-deep); }
+    ::-webkit-scrollbar-thumb { background: #263358; border-radius: 999px; }
+    ::-webkit-scrollbar-thumb:hover { background: var(--purple); }
+
+    .wrap {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 16px 12px 44px;
+    }
+    @media (min-width: 640px) { .wrap { padding: 26px 24px 56px; } }
+
+    .glass {
+      background: var(--card-bg);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.36);
+    }
+
+    /* =========================================================================
+       HEADER & KPI CARDS
+       ========================================================================= */
+    .header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      margin-bottom: 18px;
+    }
+    .brand { display: flex; align-items: center; gap: 14px; min-width: 0; }
+    .logo {
+      width: 52px; height: 52px; flex-shrink: 0;
+      border-radius: 18px;
+      background: linear-gradient(135deg, var(--purple), var(--cyan), var(--emerald));
+      display: flex; align-items: center; justify-content: center;
+      font-size: 26px;
+      box-shadow: 0 8px 24px rgba(124, 58, 237, 0.42);
+    }
+    .brand-sub {
+      font-size: 11px; font-weight: 800; letter-spacing: 0.08em;
+      text-transform: uppercase; color: var(--cyan-l);
+    }
+    .brand-h1 {
+      font-size: clamp(16px, 2.4vw, 23px);
+      font-weight: 900; letter-spacing: -0.02em; line-height: 1.2;
+      background: linear-gradient(90deg, #fff 0%, #ddd6fe 55%, #67e8f9 100%);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+
+    .pill-btn {
+      display: inline-flex; align-items: center; justify-content: center; gap: 7px;
+      min-height: 42px; padding: 8px 14px; border-radius: 14px;
+      font-size: 13px; font-weight: 700;
+      border: 1px solid rgba(148, 163, 184, 0.25);
+      background: rgba(18, 25, 48, 0.92);
+      transition: transform 0.14s ease, border-color 0.14s ease, background 0.14s ease;
+    }
+    .pill-btn:hover:not(:disabled) { transform: translateY(-1px); border-color: var(--cyan); background: #1c274a; }
+    .pill-emerald { border-color: rgba(16, 185, 129, 0.45); background: rgba(16, 185, 129, 0.14); color: #a7f3d0; }
+    .pill-purple { border-color: rgba(124, 58, 237, 0.55); background: linear-gradient(135deg, rgba(124, 58, 237, 0.35), rgba(6, 182, 212, 0.25)); color: #fff; }
+
+    .kpi-grid {
+      display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px;
+      margin-bottom: 16px;
+    }
+    @media (min-width: 900px) { .kpi-grid { grid-template-columns: repeat(4, 1fr); gap: 14px; } }
+    .kpi { padding: 16px; display: flex; flex-direction: column; justify-content: space-between; gap: 5px; }
+    .kpi-lbl {
+      font-size: 11px; font-weight: 800; letter-spacing: 0.06em;
+      text-transform: uppercase; color: var(--muted);
+      display: flex; align-items: center; justify-content: space-between; gap: 6px;
+    }
+    .kpi-val { font-size: clamp(24px, 3vw, 32px); font-weight: 900; line-height: 1.1; }
+    .kpi-note { font-size: 12px; font-weight: 600; color: var(--cyan-l); }
+
+    .err-card {
+      border-color: rgba(244, 63, 94, 0.42);
+      background: linear-gradient(145deg, rgba(18, 25, 48, 0.94), rgba(136, 19, 55, 0.24));
+    }
+    .err-badge {
+      padding: 2px 9px; border-radius: 999px;
+      background: rgba(244, 63, 94, 0.25); color: #fecdd3;
+      font-size: 12px; font-weight: 900;
+    }
+    .err-row { display: flex; gap: 6px; margin-top: 6px; }
+    .btn-err-go {
+      flex: 1; min-height: 38px; padding: 7px 10px; border-radius: 12px;
+      background: linear-gradient(90deg, #f59e0b, #ef4444); color: #fff;
+      font-size: 12.5px; font-weight: 800; transition: filter 0.14s, transform 0.14s;
+    }
+    .btn-err-go:hover:not(:disabled) { filter: brightness(1.1); transform: translateY(-1px); }
+    .btn-err-clr {
+      width: 38px; height: 38px; border-radius: 12px;
+      background: var(--bg-deep); border: 1px solid rgba(244, 63, 94, 0.4);
+      color: #fda4af; font-size: 14px;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .btn-err-clr:hover { background: rgba(244, 63, 94, 0.22); }
+
+    /* =========================================================================
+       MODE SWITCHER & TABS
+       ========================================================================= */
+    .mode-bar {
+      padding: 12px 14px; margin-bottom: 16px;
+      display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px;
+    }
+    .mode-seg {
+      display: inline-flex; width: 100%;
+      background: var(--bg-deep); border: 1px solid rgba(124, 58, 237, 0.35);
+      border-radius: 14px; padding: 4px; gap: 4px;
+    }
+    @media (min-width: 720px) { .mode-seg { width: auto; } }
+    .mode-btn {
+      flex: 1; min-height: 40px; padding: 8px 16px; border-radius: 11px;
+      font-size: 13px; font-weight: 800; color: var(--muted);
+      transition: all 0.18s ease; white-space: nowrap;
+    }
+    .mode-btn.on-game { background: linear-gradient(90deg, var(--purple), var(--cyan)); color: #fff; box-shadow: 0 4px 14px rgba(124, 58, 237, 0.42); }
+    .mode-btn.on-study { background: linear-gradient(90deg, var(--emerald), var(--cyan)); color: #fff; box-shadow: 0 4px 14px rgba(16, 185, 129, 0.38); }
+    .mode-hint { font-size: 12.5px; color: var(--soft); }
+
+    .tabs {
+      display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px;
+      margin-bottom: 20px;
+    }
+    @media (min-width: 760px) { .tabs { grid-template-columns: repeat(4, 1fr); } }
+    .tab-btn {
+      min-height: 48px; padding: 10px 12px; border-radius: 16px;
+      font-size: 13px; font-weight: 800;
+      border: 1px solid var(--border); background: var(--card-solid); color: var(--soft);
+      transition: all 0.16s ease;
+    }
+    .tab-btn:hover { border-color: var(--cyan); color: #fff; }
+    .tab-btn.active {
+      background: linear-gradient(135deg, var(--purple), #4f46e5);
+      border-color: rgba(167, 139, 250, 0.75); color: #fff;
+      box-shadow: 0 8px 20px rgba(124, 58, 237, 0.38);
+    }
+
+    /* =========================================================================
+       CARDS & GRIDS
+       ========================================================================= */
+    .grid-cards {
+      display: grid; grid-template-columns: 1fr; gap: 14px;
+    }
+    @media (min-width: 600px) { .grid-cards { grid-template-columns: repeat(2, 1fr); } }
+    @media (min-width: 1024px) { .grid-cards { grid-template-columns: repeat(4, 1fr); } }
+
+    .block-card {
+      padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px;
+      transition: transform 0.16s ease, border-color 0.16s ease;
+    }
+    .block-card:hover { transform: translateY(-3px); border-color: var(--cyan); }
+    .block-card.featured {
+      border-color: rgba(245, 158, 11, 0.5);
+      background: linear-gradient(145deg, rgba(24, 30, 60, 0.94), rgba(124, 58, 237, 0.22));
+    }
+    .c-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+    .c-ico {
+      width: 42px; height: 42px; border-radius: 13px;
+      background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.12);
+      display: flex; align-items: center; justify-content: center; font-size: 21px;
+    }
+    .c-pill {
+      font-size: 11.5px; font-weight: 800; padding: 4px 10px; border-radius: 999px;
+      background: rgba(6, 182, 212, 0.16); color: var(--cyan-l);
+    }
+    .c-title { font-size: 16px; font-weight: 800; color: #fff; margin-top: 8px; }
+    .c-desc { font-size: 12px; color: var(--muted); margin-top: 3px; min-height: 34px; }
+    .prog-track { width: 100%; height: 7px; border-radius: 999px; background: var(--bg-deep); overflow: hidden; margin-top: 6px; }
+    .prog-fill { height: 100%; border-radius: 999px; background: linear-gradient(90deg, var(--emerald), var(--cyan)); transition: width 0.35s ease; }
+
+    .btn-row { display: flex; gap: 8px; padding-top: 10px; border-top: 1px solid rgba(255, 255, 255, 0.08); }
+    .btn-pri {
+      flex: 1; min-height: 40px; padding: 8px 14px; border-radius: 12px;
+      background: linear-gradient(135deg, var(--purple), var(--cyan)); color: #fff;
+      font-size: 13px; font-weight: 800; transition: filter 0.14s, transform 0.14s;
+    }
+    .btn-pri:hover:not(:disabled) { filter: brightness(1.1); transform: translateY(-1px); }
+    .btn-sec {
+      min-height: 40px; padding: 8px 12px; border-radius: 12px;
+      background: var(--bg-deep); border: 1px solid rgba(148, 163, 184, 0.26); color: var(--soft);
+      font-size: 12.5px; font-weight: 700; transition: all 0.14s;
+    }
+    .btn-sec:hover:not(:disabled) { border-color: var(--cyan); color: #fff; background: #192242; }
+    .btn-hot {
+      min-height: 46px; padding: 11px 24px; border-radius: 16px;
+      background: linear-gradient(135deg, var(--amber), #ef4444, var(--purple)); color: #fff;
+      font-size: 14.5px; font-weight: 900;
+      box-shadow: 0 8px 22px rgba(239, 68, 68, 0.32);
+      transition: transform 0.15s, filter 0.15s;
+    }
+    .btn-hot:hover:not(:disabled) { transform: translateY(-2px); filter: brightness(1.08); }
+
+    /* =========================================================================
+       EXAM PANEL & SEARCH / CRIB SHEET
+       ========================================================================= */
+    .exam-box { max-width: 780px; margin: 0 auto; padding: 28px 20px; text-align: center; border-color: rgba(245, 158, 11, 0.45); }
+    .exam-feats { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; margin: 22px 0; text-align: left; }
+    .exam-feat { background: var(--bg-deep); border: 1px solid rgba(124, 58, 237, 0.3); border-radius: 16px; padding: 15px; }
+    .toggle-lbl {
+      display: inline-flex; align-items: center; gap: 10px;
+      padding: 10px 16px; border-radius: 14px;
+      background: var(--bg-deep); border: 1px solid rgba(255, 255, 255, 0.12);
+      font-size: 13px; font-weight: 700; margin-bottom: 20px; cursor: pointer;
+    }
+    .toggle-lbl input { width: 18px; height: 18px; accent-color: var(--emerald); cursor: pointer; }
+
+    .search-box { padding: 18px; margin-bottom: 16px; display: flex; flex-direction: column; gap: 12px; }
+    .search-wrap { position: relative; }
+    .search-wrap span { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); pointer-events: none; }
+    .search-inp {
+      width: 100%; min-height: 46px; padding: 10px 14px 10px 42px;
+      border-radius: 14px; background: var(--bg-deep);
+      border: 1px solid rgba(124, 58, 237, 0.45); color: #fff; font-size: 14px; outline: none;
+    }
+    .search-inp:focus { border-color: var(--cyan); box-shadow: 0 0 0 3px rgba(6, 182, 212, 0.2); }
+    .f-pills { display: flex; flex-wrap: wrap; gap: 6px; }
+    .f-pill {
+      padding: 6px 12px; border-radius: 999px; font-size: 12px; font-weight: 700;
+      background: var(--bg-deep); border: 1px solid rgba(148, 163, 184, 0.25); color: var(--soft);
+      transition: all 0.14s;
+    }
+    .f-pill.active { background: var(--purple); border-color: var(--purple-l); color: #fff; }
+
+    .crib-list { display: flex; flex-direction: column; gap: 14px; }
+    .crib-card {
+      padding: 18px; border-radius: 18px;
+      background: rgba(18, 25, 48, 0.88); border: 1px solid rgba(148, 163, 184, 0.2);
+    }
+    .crib-top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 8px; }
+    .id-tag {
+      font-size: 12px; font-weight: 900; padding: 3px 10px; border-radius: 8px;
+      background: rgba(124, 58, 237, 0.28); color: #ddd6fe;
+    }
+    .topic-tag {
+      font-size: 11px; font-weight: 800; padding: 3px 10px; border-radius: 8px;
+      background: rgba(6, 182, 212, 0.16); color: var(--cyan-l);
+    }
+    .crib-q { font-size: 15px; font-weight: 700; color: #fff; margin-bottom: 10px; }
+    .crib-ans {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 8px 13px; border-radius: 12px;
+      background: rgba(16, 185, 129, 0.16); border: 1px solid rgba(16, 185, 129, 0.45);
+      color: #6ee7b7; font-size: 13.5px; font-weight: 800; word-break: break-word;
+    }
+
+    /* =========================================================================
+       CODE BOX & CUSTOM HAND-DRAWN EXCEL / SQL / TRUTH TABLES & SVGs
+       ========================================================================= */
+    .code-box {
+      margin: 12px auto;
+      padding: 13px 16px;
+      border-radius: 14px;
+      background: #060914;
+      border: 1px solid rgba(6, 182, 212, 0.35);
+      overflow-x: auto;
+      text-align: left;
+      font-family: var(--font-mono);
+      font-size: 13.5px;
+      line-height: 1.55;
+      color: #7dd3fc;
+      white-space: pre;
+      max-width: 100%;
+    }
+
+    .visual-stage {
+      margin: 14px auto 6px;
+      width: 100%;
+      overflow-x: auto;
+      display: flex;
+      justify-content: center;
+      padding: 4px 0;
+    }
+
+    /* Authentic Excel Spreadsheet Styling */
+    .xl-wrap {
+      display: inline-block;
+      background: #ffffff;
+      color: #111827;
+      border-radius: 12px;
+      border: 2px solid #10b981;
+      overflow: hidden;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+      font-family: 'Segoe UI', Arial, sans-serif;
+      text-align: left;
+    }
+    .xl-fbar {
+      display: flex; align-items: center; gap: 0;
+      background: #f1f5f9; border-bottom: 1px solid #cbd5e1;
+      font-size: 12.5px; font-weight: 700;
+    }
+    .xl-fbar-cell {
+      padding: 5px 12px; background: #fff; border-right: 1px solid #cbd5e1;
+      color: #0f172a; min-width: 52px; text-align: center;
+    }
+    .xl-fbar-fx {
+      padding: 5px 10px; color: #059669; font-style: italic; font-family: Georgia, serif;
+      border-right: 1px solid #cbd5e1;
+    }
+    .xl-fbar-val {
+      padding: 5px 12px; font-family: var(--font-mono); color: #1e293b; font-size: 12px;
+    }
+    .xl-tbl { border-collapse: collapse; font-size: 12.5px; }
+    .xl-tbl th {
+      background: #e2e8f0; color: #334155; font-weight: 800;
+      border: 1px solid #cbd5e1; padding: 4px 10px; text-align: center;
+      min-width: 34px;
+    }
+    .xl-tbl td {
+      border: 1px solid #cbd5e1; padding: 5px 10px;
+      color: #0f172a; white-space: nowrap;
+    }
+    .xl-tbl td.rn {
+      background: #e2e8f0; color: #475569; font-weight: 800;
+      text-align: center; width: 30px; padding: 4px 6px;
+    }
+    .xl-tbl td.hdr { background: #ecfdf5; font-weight: 800; color: #065f46; text-align: center; }
+    .xl-tbl td.num { text-align: right; font-variant-numeric: tabular-nums; }
+    .xl-tbl td.txt { text-align: left; }
+    .xl-tbl td.hi {
+      background: #fef08a !important;
+      outline: 2px solid #2563eb;
+      outline-offset: -2px;
+      font-weight: 800;
+      color: #1e3a8a;
+    }
+    .xl-tbl td.hi-src {
+      background: #dbeafe !important;
+      outline: 2px dashed #2563eb;
+      outline-offset: -2px;
+      font-weight: 800;
+      color: #1e40af;
+    }
+    .xl-tbl td.hi-dst {
+      background: #dcfce7 !important;
+      outline: 2px solid #16a34a;
+      outline-offset: -2px;
+      font-weight: 800;
+      color: #166534;
+    }
+
+    /* SQL Side-by-side Tables */
+    .sql-pair {
+      display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 14px;
+    }
+    .sql-box {
+      background: #0a1022; border: 1px solid rgba(6, 182, 212, 0.45);
+      border-radius: 12px; overflow: hidden;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+    }
+    .sql-title {
+      padding: 6px 12px; background: rgba(124, 58, 237, 0.28);
+      font-size: 12px; font-weight: 800; color: #e9d5ff; text-align: center;
+      border-bottom: 1px solid rgba(6, 182, 212, 0.3);
+    }
+    .sql-tbl { border-collapse: collapse; font-size: 12.5px; }
+    .sql-tbl th {
+      background: #131d3b; color: var(--cyan-l); font-family: var(--font-mono);
+      padding: 6px 10px; border: 1px solid rgba(148, 163, 184, 0.2); font-size: 12px;
+    }
+    .sql-tbl td {
+      padding: 5px 10px; border: 1px solid rgba(148, 163, 184, 0.16);
+      color: #f1f5f9; text-align: center;
+    }
+    .sql-tbl tr:nth-child(even) td { background: rgba(255, 255, 255, 0.03); }
+    .sql-arrow { font-size: 28px; font-weight: 900; color: var(--emerald); }
+
+    /* Truth Table */
+    .truth-tbl {
+      border-collapse: collapse; background: #0a1022;
+      border: 1px solid rgba(124, 58, 237, 0.55);
+      border-radius: 12px; overflow: hidden; font-family: var(--font-mono); font-size: 15px;
+    }
+    .truth-tbl th {
+      background: rgba(124, 58, 237, 0.35); color: #fff;
+      padding: 8px 20px; border: 1px solid rgba(148, 163, 184, 0.25); font-weight: 900;
+    }
+    .truth-tbl td {
+      padding: 8px 20px; text-align: center;
+      border: 1px solid rgba(148, 163, 184, 0.2); font-weight: 700;
+    }
+    .truth-tbl td.res-col { background: rgba(6, 182, 212, 0.15); color: var(--cyan-l); font-weight: 900; }
+
+    /* SVG Diagram Wrapper */
+    .svg-card {
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 12px 18px;
+      border: 2px solid rgba(6, 182, 212, 0.55);
+      display: inline-flex; align-items: center; justify-content: center;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.38);
+    }
+
+    /* Visual Option Styles (Q77 SVG & Q81 ASCII) */
+    .opt-svg-wrap {
+      background: #ffffff;
+      border-radius: 10px;
+      padding: 6px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+    }
+    .opt-ascii {
+      background: rgba(5, 8, 17, 0.65);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      border-radius: 10px;
+      padding: 8px 14px;
+      font-family: var(--font-mono);
+      font-size: 14px;
+      line-height: 1.3;
+      color: #fff;
+      white-space: pre;
+      display: inline-block;
+    }
+
+    /* =========================================================================
+       QUIZ GAMEPLAY SCREEN
+       ========================================================================= */
+    .hud { padding: 14px 16px; margin-bottom: 16px; }
+    .hud-top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; }
+    .hud-l { display: flex; align-items: center; gap: 10px; min-width: 0; }
+    .ico-btn {
+      width: 40px; height: 40px; border-radius: 12px; flex-shrink: 0;
+      background: var(--bg-deep); border: 1px solid rgba(148, 163, 184, 0.28);
+      color: var(--soft); font-size: 16px; font-weight: 800;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .ico-btn:hover { background: rgba(239, 68, 68, 0.24); color: #fecaca; border-color: var(--red); }
+    .ico-btn.flagged { background: rgba(245, 158, 11, 0.25); color: #fde68a; border-color: var(--amber); }
+
+    .hud-r { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+    .chip {
+      padding: 7px 12px; border-radius: 12px;
+      background: var(--bg-deep); border: 1px solid rgba(124, 58, 237, 0.42);
+      font-size: 13px; font-weight: 800;
+      display: inline-flex; align-items: center; gap: 5px;
+    }
+    .chip-streak {
+      background: rgba(245, 158, 11, 0.2); border-color: var(--amber); color: #fde68a;
+      animation: glowStreak 1.3s infinite;
+    }
+    .chip-warn {
+      background: rgba(239, 68, 68, 0.25) !important; border-color: var(--red) !important; color: #fecaca !important;
+      animation: pulseW 0.85s infinite;
+    }
+    @keyframes glowStreak { 0%,100% { box-shadow: 0 0 8px rgba(245,158,11,0.4); } 50% { box-shadow: 0 0 22px rgba(245,158,11,0.95); } }
+    @keyframes pulseW { 0%,100% { transform: scale(1); } 50% { transform: scale(1.06); } }
+
+    .bar-bg { margin-top: 12px; width: 100%; height: 9px; border-radius: 999px; background: var(--bg-deep); overflow: hidden; }
+    .bar-fg { height: 100%; width: 0%; border-radius: 999px; background: linear-gradient(90deg, var(--purple), var(--cyan), var(--emerald)); transition: width 0.28s ease; }
+
+    .timer-strip-bg { margin-top: 8px; width: 100%; height: 5px; border-radius: 999px; background: rgba(255,255,255,0.08); overflow: hidden; }
+    .timer-strip-fg { height: 100%; width: 100%; border-radius: 999px; background: linear-gradient(90deg, var(--emerald), var(--amber), var(--red)); transition: width 0.95s linear; }
+
+    .q-stage {
+      padding: 22px 18px; margin-bottom: 16px; min-height: 150px;
+      display: flex; flex-direction: column; justify-content: center;
+    }
+    @media (min-width: 640px) { .q-stage { padding: 28px 30px; } }
+    .q-meta { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 12px; }
+    .q-txt {
+      font-size: clamp(16px, 2.2vw, 21px);
+      font-weight: 800; color: #fff; text-align: center;
+      white-space: pre-line; word-break: break-word;
+    }
+
+    /* 4 Quizizz Answer Tiles */
+    .opts-grid {
+      display: grid; grid-template-columns: 1fr; gap: 12px; margin-bottom: 16px;
+    }
+    @media (min-width: 640px) { .opts-grid { grid-template-columns: repeat(2, 1fr); gap: 15px; } }
+
+    .tile {
+      width: 100%; min-height: 70px; padding: 15px 17px; border-radius: 18px;
+      color: #fff; text-align: left; font-size: 15px; font-weight: 700;
+      display: flex; align-items: center; gap: 12px; position: relative;
+      transition: transform 0.13s ease, filter 0.13s ease, opacity 0.2s ease, box-shadow 0.2s ease;
+    }
+    .tile:not(:disabled):hover { transform: translateY(-3px); filter: brightness(1.08); }
+    .tile:not(:disabled):active { transform: translateY(2px); }
+
+    .t-0 { background: var(--tile-a); box-shadow: 0 6px 0 var(--tile-a-sh); }
+    .t-1 { background: var(--tile-b); box-shadow: 0 6px 0 var(--tile-b-sh); }
+    .t-2 { background: var(--tile-c); box-shadow: 0 6px 0 var(--tile-c-sh); }
+    .t-3 { background: var(--tile-d); box-shadow: 0 6px 0 var(--tile-d-sh); }
+
+    .t-sel { outline: 3px solid #fff; outline-offset: 2px; transform: translateY(-2px); filter: brightness(1.16); }
+    .t-ok { background: #16a34a !important; box-shadow: 0 6px 0 #15803d, 0 0 24px rgba(16,185,129,0.6) !important; animation: popT 0.28s ease; }
+    .t-err { background: #dc2626 !important; box-shadow: 0 6px 0 #991b1b, 0 0 24px rgba(239,68,68,0.6) !important; animation: shakeT 0.34s ease; }
+    .t-dim { opacity: 0.32; filter: grayscale(40%); }
+
+    .t-let {
+      width: 34px; height: 34px; flex-shrink: 0; border-radius: 10px;
+      background: rgba(0, 0, 0, 0.28); border: 1px solid rgba(255, 255, 255, 0.28);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 14px; font-weight: 900;
+    }
+    .t-lbl { flex: 1; word-break: break-word; line-height: 1.35; }
+    .t-mk { font-size: 20px; font-weight: 900; flex-shrink: 0; }
+
+    @keyframes popT { 0%{transform:scale(1);} 45%{transform:scale(1.03);} 100%{transform:scale(1);} }
+    @keyframes shakeT { 0%,100%{transform:translateX(0);} 20%{transform:translateX(-6px);} 40%{transform:translateX(6px);} 60%{transform:translateX(-4px);} 80%{transform:translateX(4px);} }
+    @keyframes floatUp { 0%{opacity:1;transform:translate(-50%,0) scale(0.9);} 100%{opacity:0;transform:translate(-50%,-44px) scale(1.2);} }
+    .pts-pop {
+      position: absolute; left: 50%; top: -10px; color: #6ee7b7;
+      font-weight: 900; font-size: 16px; pointer-events: none; white-space: nowrap;
+      animation: floatUp 0.85s ease-out forwards;
+    }
+
+    .q-foot {
+      padding: 12px 16px; display: flex; flex-wrap: wrap;
+      align-items: center; justify-content: space-between; gap: 10px;
+      margin-bottom: 14px;
+    }
+    .fb-msg { font-size: 14px; font-weight: 700; color: var(--soft); }
+
+    /* Bottom Collapsible Question Navigator */
+    .nav-details { border-radius: 18px; overflow: hidden; }
+    .nav-details summary {
+      list-style: none; cursor: pointer; padding: 12px 16px;
+      display: flex; align-items: center; justify-content: space-between;
+      font-size: 12.5px; font-weight: 800; color: var(--soft);
+    }
+    .nav-details summary::-webkit-details-marker { display: none; }
+    .nav-grid {
+      display: flex; flex-wrap: wrap; gap: 6px;
+      padding: 0 14px 14px; max-height: 132px; overflow-y: auto;
+    }
+    .ndot {
+      width: 34px; height: 34px; border-radius: 9px;
+      font-size: 12px; font-weight: 800;
+      background: var(--bg-deep); border: 1px solid rgba(148, 163, 184, 0.3); color: var(--soft);
+      position: relative;
+    }
+    .ndot:hover { border-color: var(--cyan); }
+    .ndot.cur { outline: 2px solid #fff; transform: scale(1.07); }
+    .ndot.ok { background: #16a34a; border-color: #22c55e; color: #fff; }
+    .ndot.err { background: #dc2626; border-color: #f87171; color: #fff; }
+    .ndot.neu { background: var(--purple); border-color: var(--purple-l); color: #fff; }
+    .ndot.flg::after {
+      content: ''; position: absolute; top: -3px; right: -3px;
+      width: 9px; height: 9px; border-radius: 50%; background: var(--amber); border: 1.5px solid #090d1a;
+    }
+
+    /* =========================================================================
+       RESULTS SCREEN
+       ========================================================================= */
+    .res-hero { padding: 28px 20px; text-align: center; margin-bottom: 20px; }
+    .gauge-box { position: relative; width: 150px; height: 150px; margin: 0 auto 14px; }
+    .gauge-in { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+    .res-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin: 20px 0; }
+    @media (min-width: 640px) { .res-grid { grid-template-columns: repeat(4, 1fr); } }
+    .res-tile { background: var(--bg-deep); border: 1px solid rgba(124, 58, 237, 0.3); border-radius: 16px; padding: 14px; }
+
+    .rev-box { padding: 20px; }
+    .rev-item { border-radius: 16px; padding: 14px 16px; margin-bottom: 10px; border: 1px solid transparent; }
+    .rev-ok { background: rgba(16, 185, 129, 0.1); border-color: rgba(16, 185, 129, 0.35); }
+    .rev-err { background: rgba(239, 68, 68, 0.12); border-color: rgba(239, 68, 68, 0.4); }
+    .rev-item summary {
+      cursor: pointer; list-style: none;
+      display: flex; align-items: flex-start; justify-content: space-between; gap: 10px;
+      font-size: 14.5px; font-weight: 700;
+    }
+    .rev-item summary::-webkit-details-marker { display: none; }
+
+    /* =========================================================================
+       MODALS, DRAWER, TOAST & CONFETTI
+       ========================================================================= */
+    .modal-bg {
+      position: fixed; inset: 0; z-index: 80;
+      background: rgba(4, 7, 15, 0.82); backdrop-filter: blur(6px);
+      display: flex; align-items: center; justify-content: center; padding: 16px;
+    }
+    .modal-card { width: 100%; max-width: 410px; padding: 24px; text-align: center; }
+    .drawer-bg {
+      position: fixed; inset: 0; z-index: 85;
+      background: rgba(4, 7, 15, 0.72); display: flex; justify-content: flex-end;
+    }
+    .drawer {
+      width: 100%; max-width: 360px; height: 100%;
+      background: var(--card-solid); border-left: 1px solid var(--border);
+      padding: 20px; display: flex; flex-direction: column; gap: 14px; overflow-y: auto;
+    }
+    .toast {
+      position: fixed; bottom: 20px; right: 20px; z-index: 100;
+      max-width: 360px; padding: 12px 18px; border-radius: 14px;
+      background: #121930; border: 1px solid var(--cyan); color: #fff;
+      font-size: 13.5px; font-weight: 700;
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.55);
+      transform: translateY(20px); opacity: 0; pointer-events: none; transition: all 0.24s ease;
+    }
+    .toast.show { transform: translateY(0); opacity: 1; }
+    #confetti-canvas { position: fixed; inset: 0; z-index: 95; pointer-events: none; }
+
+    .footer {
+      margin-top: 32px; padding-top: 14px; border-top: 1px solid rgba(255, 255, 255, 0.08);
+      text-align: center; font-size: 12px; color: var(--muted);
+    }
+    kbd {
+      display: inline-block; padding: 2px 6px; border-radius: 6px;
+      background: var(--card-solid); border: 1px solid rgba(124, 58, 237, 0.4);
+      font-family: var(--font-mono); font-size: 11px; color: #ddd6fe;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="confetti-canvas" class="hidden"></canvas>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <!-- =========================================================================
+       HOME / DASHBOARD SCREEN
+       ========================================================================= -->
+  <main id="screen-home" class="wrap">
+    <header class="header">
+      <div class="brand">
+        <div class="logo" aria-hidden="true">💻</div>
+        <div>
+          <div class="brand-sub">РЕАЛ ПББ 2026 • ИНФОРМАТИКА (1-БӨЛІМ • ТОЛЫҚ 166 СҰРАҚ)</div>
+          <h1 class="brand-h1">ИНФОРМАТИКА ПББ 2026 — QUIZIZZ ТРЕНАЖЕР (166 СҰРАҚ)</h1>
+        </div>
+      </div>
+
+      <button id="btn-sound-home" class="pill-btn pill-emerald" onclick="toggleSound()">
+        <span id="snd-ico-h">🔊</span>
+        <span id="snd-txt-h">Дыбыс: Қосулы</span>
+      </button>
+    </header>
+
+    <!-- 4 KPI Stats Cards -->
+    <section class="kpi-grid">
+      <div class="glass kpi">
+        <div class="kpi-lbl">БАЗА КӨЛЕМІ</div>
+        <div id="kpi-total" class="kpi-val">166</div>
+        <div id="kpi-sub" class="kpi-note">16 сурет/кесте • 25+ код</div>
+      </div>
+
+      <div class="glass kpi">
+        <div class="kpi-lbl"><span>ҮЗДІК ЕМТИХАН</span><span>🏆</span></div>
+        <div id="kpi-exam" class="kpi-val" style="color:#fbbf24;">—</div>
+        <div id="kpi-exam-sub" class="kpi-note" style="color:#fde68a;">Меже: ≥32/40 (80%)</div>
+      </div>
+
+      <div class="glass kpi">
+        <div class="kpi-lbl">ОРЫНДАЛҒАН СҰРАҚТАР</div>
+        <div id="kpi-solved" class="kpi-val" style="color:#34d399;">0</div>
+        <div id="kpi-unique" class="kpi-note" style="color:#a7f3d0;">0 / 166 игерілді</div>
+      </div>
+
+      <div class="glass kpi err-card">
+        <div class="kpi-lbl">
+          <span style="color:#fda4af;">ҚАТЕЛЕР БАНКІ</span>
+          <span id="kpi-err-cnt" class="err-badge">0</span>
+        </div>
+        <div class="err-row">
+          <button id="btn-err-go" class="btn-err-go" onclick="startErrorBank()">🔄 Қатемен жұмыс</button>
+          <button id="btn-err-clr" class="btn-err-clr hidden" onclick="openModal('modal-clear-err')" title="Тазалау">🗑</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mode Selector Pill -->
+    <div class="glass mode-bar">
+      <div class="mode-seg">
+        <button id="btn-mode-game" class="mode-btn on-game" onclick="setMode('game')">
+          🎮 Ойын режимі (40с, Streak, Ұпай)
+        </button>
+        <button id="btn-mode-study" class="mode-btn" onclick="setMode('study')">
+          📚 Жаттау режимі (Таймерсіз + Навигатор)
+        </button>
+      </div>
+      <div id="mode-hint" class="mode-hint">
+        🔥 <strong>Ойын:</strong> Әр сұраққа 40 сек таймер, жылдамдық бонусы және 🔥 серия ұпайы.
+      </div>
+    </div>
+
+    <!-- 4 Main Navigation Tabs -->
+    <nav class="tabs" aria-label="Негізгі бөлімдер">
+      <button id="tab-blocks" class="tab-btn active" onclick="switchTab('blocks')">📦 Блоктар (1–166)</button>
+      <button id="tab-topics" class="tab-btn" onclick="switchTab('topics')">🗂️ 8 Тақырыптық бөлім</button>
+      <button id="tab-exam" class="tab-btn" onclick="switchTab('exam')">🏆 Емтихан (40 сұрақ, 60 мин)</button>
+      <button id="tab-crib" class="tab-btn" onclick="switchTab('crib')">📖 166 База & Іздеу</button>
+    </nav>
+
+    <!-- TAB 1: BLOCKS -->
+    <section id="panel-blocks">
+      <div id="blocks-grid" class="grid-cards"></div>
+    </section>
+
+    <!-- TAB 2: 8 THEMATIC TOPICS -->
+    <section id="panel-topics" class="hidden">
+      <div id="topics-grid" class="grid-cards"></div>
+    </section>
+
+    <!-- TAB 3: EXAM SIMULATOR -->
+    <section id="panel-exam" class="hidden">
+      <div class="glass exam-box">
+        <div style="display:inline-flex;align-items:center;gap:6px;padding:6px 14px;border-radius:999px;background:rgba(245,158,11,0.18);border:1px solid rgba(245,158,11,0.45);color:#fde68a;font-size:12px;font-weight:800;margin-bottom:14px;">
+          🎯 НАҚТЫ ПББ ЕМТИХАН СИМУЛЯТОРЫ
+        </div>
+        <h2 style="font-size:clamp(22px,3.2vw,32px);font-weight:900;margin-bottom:8px;">40 Сұрақ • 60 Минуттық Емтихан</h2>
+        <p style="font-size:14px;color:var(--soft);max-width:560px;margin:0 auto;">
+          166 сұрақ базасынан кездейсоқ <strong>40 сұрақ</strong> іріктеліп алынады (суретті, кестелі және кодты сұрақтармен бірге).
+        </p>
+
+        <div class="exam-feats">
+          <div class="exam-feat">
+            <div style="font-size:22px;margin-bottom:5px;">🎲</div>
+            <div style="font-weight:800;font-size:14px;">Кездейсоқ 40 сұрақ</div>
+            <div style="font-size:12px;color:var(--muted);margin-top:3px;">Әр ретте жаңа емтихан нұсқасы</div>
+          </div>
+          <div class="exam-feat">
+            <div style="font-size:22px;margin-bottom:5px;">⏱️</div>
+            <div style="font-weight:800;font-size:14px;">60 минут таймер</div>
+            <div style="font-size:12px;color:var(--muted);margin-top:3px;">Сұрақ картасы, белгілеу (🚩) және өткізіп кету</div>
+          </div>
+          <div class="exam-feat">
+            <div style="font-size:22px;margin-bottom:5px;">🏆</div>
+            <div style="font-weight:800;font-size:14px;">Меже: ≥32/40 (80%)</div>
+            <div style="font-size:12px;color:var(--muted);margin-top:3px;">Межеден өткенде салтанатты конфетти!</div>
+          </div>
+        </div>
+
+        <div>
+          <label class="toggle-lbl">
+            <input type="checkbox" id="exam-instant-chk" />
+            <span>Жауапты бірден тексеру (өшірулі болса — нақты емтихандағыдай соңында тексеріледі)</span>
+          </label>
+        </div>
+
+        <div>
+          <button class="btn-hot" style="padding:14px 34px;font-size:16px;" onclick="startExam()">
+            🚀 Емтиханды бастау
+          </button>
+        </div>
+
+        <div id="exam-best-line" style="margin-top:14px;font-size:13px;font-weight:800;color:#fbbf24;"></div>
+      </div>
+    </section>
+
+    <!-- TAB 4: 166 BASE & LIVE SEARCH (CRIB SHEET) -->
+    <section id="panel-crib" class="hidden">
+      <div class="glass search-box">
+        <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px;">
+          <div>
+            <h2 style="font-size:18px;font-weight:900;">📖 166 База & Жедел Шпаргалка</h2>
+            <p style="font-size:12.5px;color:var(--muted);">Барлық 166 сұрақ, HTML/Excel/SQL кестелері, SVG сызбалары, код блоктары және жасыл дұрыс жауаптары.</p>
+          </div>
+          <span id="crib-count" class="c-pill">166 сұрақ</span>
+        </div>
+
+        <div class="search-wrap">
+          <span>🔍</span>
+          <input id="crib-search" class="search-inp" type="text"
+            placeholder="Іздеу: #68, range, ORDER BY, 255.255, СТЕПЕНЬ, Виженер, ENIAC, <link>..."
+            oninput="renderCrib()" />
+        </div>
+
+        <div id="crib-filters" class="f-pills"></div>
+      </div>
+
+      <div id="crib-list" class="crib-list"></div>
+    </section>
+
+    <footer class="footer">
+      Пернетақта: <kbd>1–4</kbd> немесе <kbd>A–D</kbd> — жауап таңдау • <kbd>Enter</kbd> / <kbd>Space</kbd> — келесі • <kbd>←</kbd> <kbd>→</kbd> — ауысу
+    </footer>
+  </main>
+
+  <!-- =========================================================================
+       QUIZ GAMEPLAY SCREEN
+       ========================================================================= -->
+  <section id="screen-quiz" class="wrap hidden">
+    <header class="glass hud">
+      <div class="hud-top">
+        <div class="hud-l">
+          <button class="ico-btn" onclick="openModal('modal-exit')" title="Шығу">✕</button>
+          <div style="min-width:0;">
+            <div id="hud-title" style="font-size:12px;font-weight:800;color:var(--cyan-l);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:270px;"></div>
+            <div style="font-size:15px;font-weight:900;display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+              <span>Сұрақ <span id="hud-pos" style="color:var(--cyan-l);">1 / 40</span></span>
+              <span id="hud-qid" class="id-tag" style="font-size:11px;">#1</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hud-r">
+          <button id="btn-flag" class="ico-btn hidden" onclick="toggleFlag()" title="Белгілеу (🚩)">🚩</button>
+          <button id="btn-map" class="pill-btn hidden" style="min-height:38px;padding:6px 12px;font-size:12px;" onclick="openMapDrawer()">📋 Карта</button>
+          <div id="hud-streak-box" class="chip chip-streak hidden"><span>🔥</span><span id="hud-streak">0</span></div>
+          <div id="hud-score-box" class="chip" style="position:relative;">
+            <span>⭐</span><span id="hud-score">0</span>
+            <div id="pts-host" style="position:absolute;left:50%;top:0;"></div>
+          </div>
+          <div id="hud-timer-box" class="chip" style="border-color:rgba(6,182,212,0.5);color:var(--cyan-l);min-width:74px;justify-content:center;">
+            <span>⏱</span><span id="hud-timer">40с</span>
+          </div>
+          <button id="btn-sound-quiz" class="ico-btn" onclick="toggleSound()" title="Дыбыс">🔊</button>
+        </div>
+      </div>
+
+      <div class="bar-bg"><div id="hud-prog" class="bar-fg"></div></div>
+      <div id="timer-bar-wrap" class="timer-strip-bg hidden"><div id="timer-bar-fg" class="timer-strip-fg"></div></div>
+    </header>
+
+    <!-- Question Card -->
+    <div class="glass q-stage">
+      <div class="q-meta">
+        <span id="q-topic-badge" class="topic-tag">Бөлім</span>
+        <span id="q-mode-lbl" style="font-size:11.5px;font-weight:700;color:var(--muted);"></span>
+      </div>
+
+      <div id="q-text" class="q-txt"></div>
+      <pre id="q-code" class="code-box hidden"></pre>
+      <div id="q-visual" class="visual-stage hidden"></div>
+    </div>
+
+    <!-- 4 Answer Tiles -->
+    <div id="opts-grid" class="opts-grid"></div>
+
+    <!-- Action Bar -->
+    <div class="glass q-foot">
+      <div id="q-feedback" class="fb-msg">Жауап нұсқасын таңдаңыз (A–D немесе 1–4)</div>
+      <div style="display:flex;gap:8px;margin-left:auto;flex-wrap:wrap;">
+        <button id="btn-prev" class="btn-sec hidden" onclick="prevQ()">← Алдыңғы</button>
+        <button id="btn-skip" class="btn-sec hidden" onclick="nextQ()">Өткізу ⏭</button>
+        <button id="btn-finish-top" class="btn-sec hidden" style="border-color:rgba(245,158,11,0.5);color:#fde68a;" onclick="requestFinish()">🏁 Аяқтау</button>
+        <button id="btn-next" class="btn-pri" style="flex:none;min-width:130px;" onclick="nextQ()">Келесі →</button>
+      </div>
+    </div>
+
+    <!-- Collapsible Bottom Navigator Grid (Study & Exam Modes) -->
+    <details id="nav-wrap" class="glass nav-details hidden" open>
+      <summary>
+        <span>🧭 Сұрақтар навигаторы (<span id="nav-done">0</span> / <span id="nav-tot">0</span>)</span>
+        <span style="color:#fde68a;font-size:11.5px;">▼ ашу / жинау</span>
+      </summary>
+      <div id="nav-grid" class="nav-grid"></div>
+    </details>
+  </section>
+
+  <!-- =========================================================================
+       RESULTS SCREEN
+       ========================================================================= -->
+  <section id="screen-results" class="wrap hidden">
+    <div class="glass res-hero">
+      <div class="gauge-box">
+        <svg viewBox="0 0 120 120" style="width:100%;height:100%;transform:rotate(-90deg);">
+          <circle cx="60" cy="60" r="52" fill="none" stroke="#050811" stroke-width="11" />
+          <circle id="res-gauge" cx="60" cy="60" r="52" fill="none" stroke="url(#rG)" stroke-width="11"
+            stroke-linecap="round" stroke-dasharray="326.73" stroke-dashoffset="326.73"
+            style="transition:stroke-dashoffset 0.9s cubic-bezier(0.2,1,0.35,1);" />
+          <defs>
+            <linearGradient id="rG" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#10b981" />
+              <stop offset="50%" stop-color="#06b6d4" />
+              <stop offset="100%" stop-color="#7c3aed" />
+            </linearGradient>
+          </defs>
+        </svg>
+        <div class="gauge-in">
+          <div id="res-pct" style="font-size:28px;font-weight:900;">0%</div>
+          <div id="res-ico" style="font-size:22px;">🏆</div>
+        </div>
+      </div>
+
+      <h2 id="res-title" style="font-size:clamp(22px,3.2vw,32px);font-weight:900;">Нәтиже дайын!</h2>
+      <p id="res-sub" style="font-size:14px;color:var(--muted);margin-top:4px;"></p>
+      <div id="res-badge" class="hidden" style="margin-top:12px;display:inline-block;padding:7px 16px;border-radius:999px;font-size:13px;font-weight:900;"></div>
+
+      <div class="res-grid">
+        <div class="res-tile">
+          <div style="font-size:11px;color:var(--muted);font-weight:700;">ДҰРЫС / ЖАЛПЫ</div>
+          <div id="res-ok" style="font-size:22px;font-weight:900;color:#34d399;margin-top:4px;">0 / 0</div>
+        </div>
+        <div class="res-tile">
+          <div style="font-size:11px;color:var(--muted);font-weight:700;">ҰПАЙ</div>
+          <div id="res-pts" style="font-size:22px;font-weight:900;color:var(--cyan-l);margin-top:4px;">0</div>
+        </div>
+        <div class="res-tile">
+          <div style="font-size:11px;color:var(--muted);font-weight:700;">ҮЗДІК СЕРИЯ</div>
+          <div id="res-strk" style="font-size:22px;font-weight:900;color:#fbbf24;margin-top:4px;">🔥 0</div>
+        </div>
+        <div class="res-tile">
+          <div style="font-size:11px;color:var(--muted);font-weight:700;">УАҚЫТ</div>
+          <div id="res-time" style="font-size:22px;font-weight:900;color:#c4b5fd;margin-top:4px;">00:00</div>
+        </div>
+      </div>
+
+      <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:10px;">
+        <button id="btn-retry-err" class="btn-hot" onclick="retryWrong()">
+          🔄 Тек қателерді қайталау (<span id="res-err-n">0</span>)
+        </button>
+        <button class="pill-btn pill-purple" onclick="restartQuiz()">🔁 Қайта өту</button>
+        <button class="pill-btn" onclick="goHome()">🏠 Басты бет</button>
+      </div>
+    </div>
+
+    <div class="glass rev-box">
+      <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;margin-bottom:14px;">
+        <h3 style="font-size:17px;font-weight:900;">📋 Сұрақтарды талдау</h3>
+        <div style="display:flex;gap:6px;">
+          <button id="rev-btn-all" class="f-pill active" onclick="renderReview('all')">Барлығы</button>
+          <button id="rev-btn-err" class="f-pill" onclick="renderReview('wrong')">Тек қателер</button>
+        </div>
+      </div>
+      <div id="rev-list"></div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       MODALS & EXAM MAP DRAWER (ZERO alert()/confirm() USAGE)
+       ========================================================================= -->
+  <div id="modal-exit" class="modal-bg hidden" onclick="bgClose(event,'modal-exit')">
+    <div class="glass modal-card">
+      <div style="font-size:38px;margin-bottom:8px;">🚪</div>
+      <h3 style="font-size:19px;font-weight:900;">Тесттен шығу</h3>
+      <p style="font-size:13.5px;color:var(--soft);margin:8px 0 20px;">Ағымдағы сессия аяқталған жоқ. Басты бетке оралғыңыз келе ме?</p>
+      <div style="display:flex;gap:10px;">
+        <button class="btn-sec" style="flex:1;" onclick="closeModal('modal-exit')">Жалғастыру</button>
+        <button class="btn-hot" style="flex:1;min-height:40px;font-size:13px;" onclick="closeModal('modal-exit');goHome();">Шығу</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal-finish" class="modal-bg hidden" onclick="bgClose(event,'modal-finish')">
+    <div class="glass modal-card">
+      <div style="font-size:38px;margin-bottom:8px;">🏁</div>
+      <h3 style="font-size:19px;font-weight:900;">Емтиханды аяқтау</h3>
+      <p id="finish-msg" style="font-size:13.5px;color:var(--soft);margin:8px 0 20px;"></p>
+      <div style="display:flex;gap:10px;">
+        <button class="btn-sec" style="flex:1;" onclick="closeModal('modal-finish')">Қайта қарау</button>
+        <button class="btn-pri" style="flex:1;" onclick="closeModal('modal-finish');finishQuiz();">Аяқтау & Тексеру</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal-clear-err" class="modal-bg hidden" onclick="bgClose(event,'modal-clear-err')">
+    <div class="glass modal-card">
+      <div style="font-size:38px;margin-bottom:8px;">🗑</div>
+      <h3 style="font-size:19px;font-weight:900;">Қателер банкін тазалау</h3>
+      <p style="font-size:13.5px;color:var(--soft);margin:8px 0 20px;">Барлық сақталған қате сұрақтар өшіріледі. Сенімдісіз бе?</p>
+      <div style="display:flex;gap:10px;">
+        <button class="btn-sec" style="flex:1;" onclick="closeModal('modal-clear-err')">Болдырмау</button>
+        <button class="btn-hot" style="flex:1;min-height:40px;font-size:13px;" onclick="confirmClearErrors()">Тазалау</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="drawer-map" class="drawer-bg hidden" onclick="bgClose(event,'drawer-map')">
+    <div class="drawer">
+      <div style="display:flex;align-items:center;justify-content:space-between;">
+        <h3 style="font-size:17px;font-weight:900;">📋 Сұрақтар картасы</h3>
+        <button class="ico-btn" style="width:34px;height:34px;" onclick="closeModal('drawer-map')">✕</button>
+      </div>
+      <div style="font-size:12px;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap;">
+        <span>🟣 Белгіленген</span><span>🟢 Дұрыс</span><span>🔴 Қате</span><span>🟡 🚩 Белгі</span>
+      </div>
+      <div id="drawer-grid" class="nav-grid" style="max-height:none;padding:0;"></div>
+      <button class="btn-hot" style="margin-top:auto;" onclick="closeModal('drawer-map');requestFinish();">🏁 Емтиханды аяқтау</button>
+    </div>
+  </div>
+
+  <script>
+    /* =========================================================================
+       1. HAND-DRAWN VISUALS (16 TABLES, SVG DIAGRAMS & VISUAL OPTIONS)
+       ========================================================================= */
+    const SCHOOL_ADMISSION_ROWS = [
+      ['Батыр Арман', '18', '10', '14', '14', 'Қабылданды'],
+      ['Жұмаділ Бақыт', '20', '12', '10', '14', 'Қабылданды'],
+      ['Жеңіс Толғанай', '15', '14', '8', '12', 'Қабылданбайды'],
+      ['Бекболат Айдана', '16', '12', '10', '13', 'Қабылданбайды']
+    ];
+
+    function buildAdmissionTable(highlightF2) {
+      const body = SCHOOL_ADMISSION_ROWS.map((r, i) => `
+        <tr>
+          <td class="rn">${i + 2}</td>
+          <td class="txt">${r[0]}</td>
+          <td class="num">${r[1]}</td>
+          <td class="num">${r[2]}</td>
+          <td class="num">${r[3]}</td>
+          <td class="num"><strong>${r[4]}</strong></td>
+          <td class="txt ${highlightF2 && i === 0 ? 'hi' : ''}" style="color:${r[5]==='Қабылданды'?'#047857':'#b91c1c'};font-weight:700;">${r[5]}</td>
+        </tr>`).join('');
+      return `
+        <div class="xl-wrap">
+          <table class="xl-tbl">
+            <thead>
+              <tr><th></th><th>A</th><th>B</th><th>C</th><th>D</th><th>E</th><th>F</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="rn">1</td>
+                <td class="hdr">Аты-жөні</td>
+                <td class="hdr">Математика (20)</td>
+                <td class="hdr">Қазақ тілі (20)</td>
+                <td class="hdr">Ағылшын тілі (20)</td>
+                <td class="hdr">Орташа ұпай</td>
+                <td class="hdr">Шешім</td>
+              </tr>
+              ${body}
+            </tbody>
+          </table>
+        </div>`;
+    }
+
+    const VISUALS = {
+      6: `
+        <div class="xl-wrap">
+          <div class="xl-fbar">
+            <span class="xl-fbar-cell">C1</span>
+            <span class="xl-fbar-fx">fx</span>
+            <span class="xl-fbar-val">=СТЕПЕНЬ(A1;B1)</span>
+          </div>
+          <table class="xl-tbl">
+            <thead><tr><th></th><th>A</th><th>B</th><th>C</th></tr></thead>
+            <tbody>
+              <tr>
+                <td class="rn">1</td>
+                <td class="num">10</td>
+                <td class="num">2</td>
+                <td class="hi">=СТЕПЕНЬ(A1;B1)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>`,
+
+      23: `
+        <div class="svg-card">
+          <svg viewBox="0 0 240 180" width="240" height="180" aria-label="Эйлер-Венн диаграммасы">
+            <defs>
+              <pattern id="vennHatch" width="8" height="8" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+                <line x1="0" y1="0" x2="0" y2="8" stroke="#1e293b" stroke-width="2.6" />
+              </pattern>
+              <clipPath id="clipCircleA">
+                <circle cx="92" cy="84" r="56" />
+              </clipPath>
+            </defs>
+            <circle cx="146" cy="102" r="56" fill="url(#vennHatch)" clip-path="url(#clipCircleA)" />
+            <circle cx="92" cy="84" r="56" fill="none" stroke="#0f172a" stroke-width="3.5" />
+            <circle cx="146" cy="102" r="56" fill="none" stroke="#0f172a" stroke-width="3.5" />
+            <text x="58" y="54" font-size="16" font-weight="800" fill="#0f172a" font-family="sans-serif">A</text>
+            <text x="172" y="138" font-size="16" font-weight="800" fill="#0f172a" font-family="sans-serif">B</text>
+          </svg>
+        </div>`,
+
+      27: `
+        <div class="xl-wrap">
+          <table class="xl-tbl">
+            <thead><tr><th></th><th>A</th><th>B</th><th>C</th><th>D</th></tr></thead>
+            <tbody>
+              <tr><td class="rn">1</td><td class="hdr">Күні</td><td class="hdr">Тауар саны</td><td class="hdr">Құны</td><td class="hdr">Жалпы құны</td></tr>
+              ${[
+                [1,211,10,2110],[2,200,10,2000],[3,201,10,2010],[4,202,10,2020],[5,204,10,2040],
+                [6,205,10,2050],[7,206,10,2060],[8,207,10,2070],[9,208,10,2080],[10,209,10,2090]
+              ].map((r, i) => `<tr><td class="rn">${i+2}</td><td class="num">${r[0]}</td><td class="num">${r[1]}</td><td class="num">${r[2]}</td><td class="num">${r[3]}</td></tr>`).join('')}
+              <tr><td class="rn">12</td><td></td><td></td><td class="hdr">Жалпы сомасы</td><td class="hi" style="text-align:center;">?</td></tr>
+            </tbody>
+          </table>
+        </div>`,
+
+      28: `
+        <div class="xl-wrap">
+          <table class="xl-tbl">
+            <thead><tr><th></th><th style="min-width:110px;">A</th><th style="min-width:60px;">B</th></tr></thead>
+            <tbody>
+              <tr><td class="rn">1</td><td class="txt">fa</td><td></td></tr>
+              <tr><td class="rn">2</td><td class="num">7</td><td></td></tr>
+              <tr><td class="rn">3</td><td class="num">700%</td><td></td></tr>
+              <tr><td class="rn">4</td><td class="txt">2f</td><td></td></tr>
+            </tbody>
+          </table>
+        </div>`,
+
+      42: `
+        <div class="svg-card" style="background:#fef9ec;">
+          <svg viewBox="0 0 260 160" width="260" height="160" aria-label="Векторлық графика сызбасы">
+            <!-- Smooth geometric letter A -->
+            <path d="M 32 138 L 76 28 L 120 138" fill="none" stroke="#1e293b" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" />
+            <line x1="46" y1="104" x2="106" y2="104" stroke="#1e293b" stroke-width="5.5" stroke-linecap="round" />
+            <!-- Zoom circle with razor-sharp diagonal dark-blue stroke (no pixels!) -->
+            <defs>
+              <clipPath id="vecZoomClip"><circle cx="132" cy="84" r="56" /></clipPath>
+            </defs>
+            <circle cx="132" cy="84" r="56" fill="#fffbeb" stroke="#0f172a" stroke-width="4.5" />
+            <polygon points="104,150 152,18 176,18 128,150" fill="#334e73" stroke="#0f172a" stroke-width="3.5" clip-path="url(#vecZoomClip)" />
+            <!-- Magnifying glass icon with + -->
+            <line x1="205" y1="74" x2="229" y2="95" stroke="#0f172a" stroke-width="6.5" stroke-linecap="round" />
+            <circle cx="192" cy="56" r="24" fill="#d4a373" stroke="#0f172a" stroke-width="4" />
+            <line x1="181" y1="56" x2="203" y2="56" stroke="#0f172a" stroke-width="4" stroke-linecap="round" />
+            <line x1="192" y1="45" x2="192" y2="67" stroke="#0f172a" stroke-width="4" stroke-linecap="round" />
+          </svg>
+        </div>`,
+
+      51: `
+        <div class="xl-wrap">
+          <div class="xl-fbar">
+            <span class="xl-fbar-cell">B1</span>
+            <span class="xl-fbar-fx">fx</span>
+            <span class="xl-fbar-val">=ЕСЛИ(85&lt;A1;5;4)</span>
+          </div>
+          <table class="xl-tbl">
+            <thead><tr><th></th><th>A</th><th>B</th></tr></thead>
+            <tbody>
+              <tr>
+                <td class="rn">1</td>
+                <td class="num">86</td>
+                <td class="hi">=ЕСЛИ(85&lt;A1;5;4)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>`,
+
+      68: `
+        <div class="svg-card">
+          <svg viewBox="0 0 320 130" width="320" height="130" aria-label="Комбинациялық логика сызбасы">
+            <!-- Input A -> NOT gate -->
+            <text x="10" y="38" font-size="17" font-weight="900" font-style="italic" fill="#0f172a">A</text>
+            <line x1="28" y1="32" x2="62" y2="32" stroke="#0f172a" stroke-width="3" />
+            <rect x="62" y="10" width="44" height="46" rx="3" fill="#f8fafc" stroke="#0f172a" stroke-width="3" />
+            <text x="79" y="39" font-size="16" font-weight="800" fill="#0f172a">1</text>
+            <circle cx="112" cy="32" r="6" fill="#ffffff" stroke="#0f172a" stroke-width="3" />
+            <!-- Output of NOT -> top input of AND -->
+            <polyline points="118,32 146,32 146,56 176,56" fill="none" stroke="#0f172a" stroke-width="3" />
+            <!-- Input B -> bottom input of AND -->
+            <text x="10" y="106" font-size="17" font-weight="900" font-style="italic" fill="#0f172a">B</text>
+            <polyline points="28,100 146,100 146,84 176,84" fill="none" stroke="#0f172a" stroke-width="3" />
+            <!-- AND Gate (&) -->
+            <rect x="176" y="40" width="52" height="62" rx="3" fill="#e0f2fe" stroke="#0f172a" stroke-width="3" />
+            <text x="194" y="79" font-size="24" font-weight="900" fill="#0f172a">&amp;</text>
+            <!-- Output F(A, B) -->
+            <line x1="228" y1="71" x2="262" y2="71" stroke="#0f172a" stroke-width="3" />
+            <text x="266" y="76" font-size="15" font-weight="900" font-style="italic" fill="#0f172a">F(A, B)</text>
+          </svg>
+        </div>`,
+
+      74: `
+        <div class="xl-wrap">
+          <div class="xl-fbar">
+            <span class="xl-fbar-cell">A1 → B2</span>
+            <span class="xl-fbar-fx">fx</span>
+            <span class="xl-fbar-val">=$C2+D1</span>
+          </div>
+          <table class="xl-tbl">
+            <thead><tr><th></th><th>A</th><th>B</th><th>C</th><th>D</th><th>E</th></tr></thead>
+            <tbody>
+              <tr><td class="rn">1</td><td class="hi-src">=$C2+D1</td><td class="num">15</td><td class="num">20</td><td class="num">10</td><td class="num">5</td></tr>
+              <tr><td class="rn">2</td><td class="num">30</td><td class="hi-dst">↘ ? (40)</td><td class="num">12</td><td class="num">8</td><td class="num">3</td></tr>
+              <tr><td class="rn">3</td><td class="num">15</td><td class="num">7</td><td class="num">10</td><td class="num">0</td><td class="num">1</td></tr>
+            </tbody>
+          </table>
+        </div>`,
+
+      88: buildAdmissionTable(false),
+
+      120: `
+        <div class="xl-wrap">
+          <div class="xl-fbar">
+            <span class="xl-fbar-cell">B8</span>
+            <span class="xl-fbar-fx">fx</span>
+            <span class="xl-fbar-val">=ОКРУГЛВВЕРХ(СРЗНАЧ(B2:B7);0)</span>
+          </div>
+          <table class="xl-tbl">
+            <thead><tr><th></th><th>A</th><th>B</th><th>C</th></tr></thead>
+            <tbody>
+              <tr><td class="rn">1</td><td class="hdr">Оқулық атауы</td><td class="hdr">Бағасы</td><td class="hdr">Саны</td></tr>
+              <tr><td class="rn">2</td><td class="txt">Математика</td><td class="num">1900</td><td class="num">120</td></tr>
+              <tr><td class="rn">3</td><td class="txt">Физика</td><td class="num">1800</td><td class="num">120</td></tr>
+              <tr><td class="rn">4</td><td class="txt">Информатика</td><td class="num">1500</td><td class="num">80</td></tr>
+              <tr><td class="rn">5</td><td class="txt">Химия</td><td class="num">1500</td><td class="num">100</td></tr>
+              <tr><td class="rn">6</td><td class="txt">Биология</td><td class="num">1700</td><td class="num">100</td></tr>
+              <tr><td class="rn">7</td><td class="txt">География</td><td class="num">1400</td><td class="num">80</td></tr>
+              <tr><td class="rn">8</td><td></td><td class="hi" style="text-align:center;">=ОКРУГЛВВЕРХ(...)</td><td></td></tr>
+            </tbody>
+          </table>
+        </div>`,
+
+      132: `
+        <div class="xl-wrap">
+          <div class="xl-fbar">
+            <span class="xl-fbar-cell">C1 → C2</span>
+            <span class="xl-fbar-fx">fx</span>
+            <span class="xl-fbar-val">=A$1*B1+$A1</span>
+          </div>
+          <table class="xl-tbl">
+            <thead><tr><th></th><th>A</th><th>B</th><th>C</th></tr></thead>
+            <tbody>
+              <tr><td class="rn">1</td><td class="num">10</td><td class="num">6</td><td class="hi-src">=A$1*B1+$A1</td></tr>
+              <tr><td class="rn">2</td><td class="num">5</td><td class="num">8</td><td class="hi-dst" style="text-align:center;">↓ ?</td></tr>
+            </tbody>
+          </table>
+        </div>`,
+
+      135: buildAdmissionTable(true),
+
+      138: `
+        <div class="sql-pair">
+          <div class="sql-box">
+            <div class="sql-title">«employee» кестесі</div>
+            <table class="sql-tbl">
+              <thead><tr><th>id</th><th>first_name</th><th>last_name</th><th>age</th><th>salary</th></tr></thead>
+              <tbody>
+                <tr><td>1</td><td>Raim</td><td>Khamzin</td><td>27</td><td>800000</td></tr>
+                <tr><td>2</td><td>Artur</td><td>Sidorenko</td><td>30</td><td>750000</td></tr>
+                <tr><td>3</td><td>Darkhan</td><td>Omarov</td><td>35</td><td>770000</td></tr>
+                <tr><td>4</td><td>Ainur</td><td>Asanova</td><td>21</td><td>300000</td></tr>
+                <tr><td>5</td><td>Dariga</td><td>Malik</td><td>25</td><td>800000</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="sql-arrow">→</div>
+          <div class="sql-box">
+            <div class="sql-title">«нәтиже» кестесі</div>
+            <table class="sql-tbl">
+              <thead><tr><th>first_name</th></tr></thead>
+              <tbody>
+                <tr><td>Raim</td></tr>
+                <tr><td>Artur</td></tr>
+                <tr><td>Darkhan</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>`,
+
+      152: `
+        <table class="truth-tbl">
+          <thead><tr><th>A</th><th>B</th><th>¬A</th><th>B ?</th></tr></thead>
+          <tbody>
+            <tr><td>0</td><td>0</td><td>1</td><td class="res-col">1</td></tr>
+            <tr><td>0</td><td>1</td><td>1</td><td class="res-col">1</td></tr>
+            <tr><td>1</td><td>0</td><td>0</td><td class="res-col">0</td></tr>
+            <tr><td>1</td><td>1</td><td>0</td><td class="res-col">1</td></tr>
+          </tbody>
+        </table>`
+    };
+
+    const OPT_VISUALS = {
+      '[OPT_SVG:77A]': `
+        <div class="opt-svg-wrap">
+          <svg viewBox="0 0 210 78" width="190" height="72">
+            <rect x="4" y="4" width="202" height="14" fill="#2563eb" stroke="#000" stroke-width="1"/>
+            <text x="10" y="14" font-size="9" fill="#fff" font-weight="700">LEFT</text>
+            <rect x="4" y="20" width="202" height="14" fill="#16a34a" stroke="#000" stroke-width="1"/>
+            <text x="10" y="30" font-size="9" fill="#fff" font-weight="700">MAIN</text>
+            <rect x="20" y="38" width="22" height="36" fill="#ef4444" stroke="#000" stroke-width="1"/>
+            <text x="22" y="50" font-size="8" fill="#fff" font-weight="700">TOP</text>
+          </svg>
+        </div>`,
+      '[OPT_SVG:77B]': `
+        <div class="opt-svg-wrap">
+          <svg viewBox="0 0 210 78" width="190" height="72">
+            <rect x="4" y="4" width="196" height="34" fill="#ef4444" stroke="#000" stroke-width="1.2"/>
+            <text x="10" y="17" font-size="10" fill="#000" font-weight="800">TOP</text>
+            <rect x="22" y="39" width="184" height="15" fill="#2563eb" stroke="#000" stroke-width="1.2"/>
+            <text x="28" y="50" font-size="9" fill="#fff" font-weight="800">LEFT</text>
+            <rect x="92" y="55" width="44" height="18" fill="#22c55e" stroke="#000" stroke-width="1.2"/>
+            <text x="98" y="67" font-size="9" fill="#000" font-weight="800">MAIN</text>
+          </svg>
+        </div>`,
+      '[OPT_SVG:77C]': `
+        <div class="opt-svg-wrap">
+          <svg viewBox="0 0 210 78" width="190" height="72">
+            <rect x="18" y="4" width="188" height="14" fill="#ef4444" stroke="#000" stroke-width="1"/>
+            <text x="24" y="14" font-size="9" fill="#000" font-weight="700">TOP</text>
+            <rect x="4" y="19" width="202" height="14" fill="#22c55e" stroke="#000" stroke-width="1"/>
+            <text x="10" y="29" font-size="9" fill="#000" font-weight="700">MAIN</text>
+            <rect x="4" y="36" width="26" height="38" fill="#2563eb" stroke="#000" stroke-width="1"/>
+            <text x="6" y="48" font-size="8" fill="#fff" font-weight="700">LEFT</text>
+          </svg>
+        </div>`,
+      '[OPT_SVG:77D]': `
+        <div class="opt-svg-wrap">
+          <svg viewBox="0 0 210 78" width="190" height="72">
+            <rect x="16" y="4" width="190" height="14" fill="#2563eb" stroke="#000" stroke-width="1"/>
+            <text x="22" y="14" font-size="9" fill="#fff" font-weight="700">LEFT</text>
+            <rect x="4" y="19" width="202" height="14" fill="#22c55e" stroke="#000" stroke-width="1"/>
+            <text x="10" y="29" font-size="9" fill="#000" font-weight="700">MAIN</text>
+            <rect x="28" y="37" width="18" height="37" fill="#ef4444" stroke="#000" stroke-width="1"/>
+            <text x="29" y="49" font-size="7" fill="#000" font-weight="700">TOP</text>
+          </svg>
+        </div>`,
+      '[OPT_ASCII:81A]': `<pre class="opt-ascii">    &amp;\n   &amp;&amp;\n  &amp;&amp;&amp;\n &amp;&amp;&amp;&amp;\n&amp;&amp;&amp;&amp;&amp;</pre>`,
+      '[OPT_ASCII:81B]': `<pre class="opt-ascii">&amp;&amp;&amp;&amp;&amp;\n &amp;&amp;&amp;&amp;\n  &amp;&amp;&amp;\n   &amp;&amp;\n    &amp;</pre>`,
+      '[OPT_ASCII:81C]': `<pre class="opt-ascii">&amp;\n&amp;&amp;\n&amp;&amp;&amp;\n&amp;&amp;&amp;&amp;\n&amp;&amp;&amp;&amp;&amp;</pre>`,
+      '[OPT_ASCII:81D]': `<pre class="opt-ascii">&amp;&amp;&amp;&amp;&amp;\n&amp;&amp;&amp;&amp;\n&amp;&amp;&amp;\n&amp;&amp;\n&amp;</pre>`
+    };
+
+    /* =========================================================================
+       2. COMPLETE VERBATIM DATASET — ALL 166 QUESTIONS (ID 1 THROUGH 166)
+          Format: [id, ansIdx, topic, questionText, optionalCode, [optA, optB, optC, optD]]
+       ========================================================================= */
+    const RAW_QUESTIONS = [
+      [1, 2, 'security', 'Компьютерлік жүйеде тіркелген әрбір пайдаланушыны анықтайтын ақпарат.', '', ['қолтаңба', 'шифр', 'идентификатор', 'аутентификатор']],
+      [2, 3, 'python', '1 мен 10 аралығындағы сандарды кері ретпен экранға шығаратын программаның шарты.', '', ['for i in range(15, 10, -1):', 'for i in range(10, 1, -1):', 'for i in range(11, 0, -1):', 'for i in range(10, 0, -1):']],
+      [3, 0, 'security', 'Адамға рұқсат қағаз, жетон, кілт арқылы берілетін идентификациялау тәсілі.', '', ['атрибутивтік', 'биометриялық', 'динамикалық', 'статистикалық']],
+      [4, 3, 'web', 'HTML құжатта азат жолдағы барлық мәтінді 14 өлшемдегі Arial қарпімен жазуға арналған селекторды анықтаңыз.', '', ['p {color:red 14pt Arial}', 'p {font: Arial font-weight: 14pt}', 'p {background:Arial; padding: 14pt}', 'p {font:normal 14pt Arial}']],
+      [5, 1, 'hardware', 'Шинаның түрі болып табылмайды:', '', ['командалық шина', 'желілік шина', 'деректер шинасы', 'адрестік шина']],
+      [6, 3, 'excel', 'C1 ұяшығының мәні: [VISUAL:6]', '', ['5', '12', '20', '100']],
+      [7, 0, 'web', 'HTML-да мәтіннің түсін, түрін, өлшемін өзгертетін тег:', '', ['<Font> </Font>', '<I> </I>', '<H1> </H1>', '<Ol> </Ol>']],
+      [8, 0, 'logic', 'Қуаттылығы 64 символ болатын алфавиттің бір таңбасының ақпараттық салмағы', '', ['6 бит', '2 бит', '8 бит', '4 бит']],
+      [9, 0, 'ai', 'Нейрондық желілер құрамына жатпайды', '', ['синапс', 'кіріс', 'шығыс', 'жасырын']],
+      [10, 0, 'sql', 'SQL тілінде нәтижелерді сұрыптау тәртібін анықтау үшін қолданылатын команда', '', ['ORDER BY', 'WHERE', 'ALTER TABLE', 'SELECT FROM']],
+      [11, 2, 'web', 'HTML-де браузер программасы терезелерін бірнеше бөлікке бөліп тастауға мүмкіндік беретін тег', '', ['<Marquee>', '<Div>', '<Frameset>', '<Span>']],
+      [12, 2, 'web', 'Берілген тегте ALT атрибутының қызметі:', '<IMG SRC="suret.jpg" ALT="suret">', ['мәтінге байланысты суреттің орналасуы көрсетіледі', 'суретті түзету типін береді', 'егер сурет жүктелмеген жағдайда мәтін шығарады', 'суреттің екі жақ шеттеріндегі бос аймақ мөлшерін пиксельмен береді']],
+      [13, 1, 'ai', 'Растрлық графика параметрлеріне жатпайды', '', ['Цветовые модели (Түстер моделі)', 'Свойства (Қасиеті)', 'Разрешение (Айыру)', 'Размер (Өлшем)']],
+      [14, 3, 'excel', 'Excel-де сүзгінің іздеу жолағында 5* деп жазылса, орындалатын әрекет', '', ['5-пен аяқталатын мәндерді қамтитын барлық сандарды табады', '5-ке бөлінетін мәндерді қамтитын барлық мәндерді табады', 'суммалары 5-ке тең сандарды табады', '5-тен басталатын мәндерді қамтитын барлық сандарды табады']],
+      [15, 0, 'network', 'Ақпаратты тарату ортасында кабельдердің түрі', '', ['есулі қос өткізгіш', 'шина', 'жұлдызша', 'сақина']],
+      [16, 2, 'hardware', 'Жартылай өткізгішті элементтерден тұратын, есептеу мен ақпарат өңдеу жұмыстарын жүргізетін электронды микросхема', '', ['Бейнекарта', 'Чипсет', 'Процессор', 'Аналық тақта']],
+      [17, 1, 'network', 'Желіге тұрақты қосылатын компьютер', '', ['коммутатор', 'сервер', 'шлюз', 'ноутбук']],
+      [18, 1, 'python', 'Python-да жұп сандарды анықтауға арналған шарт', '', ['if a / 2 == 0', 'if a % 2 == 0', 'if a % 2 == 1', 'if a // 2 == 1']],
+      [19, 3, 'network', '4G технологиясының жүктеу жылдамдығы', '', ['1000 Мбит/сек', '10 Мбайт/сек', '10 Мбит/сек', '100 Мбит/сек']],
+      [20, 1, 'hardware', 'Алғашқы компьютер құрастырылған жыл', '', ['1927', '1941', '1897', '1938']],
+      [21, 0, 'python', 'Программа нәтижесі:', 'a = [6, 5, 8, 2]\na.reverse()\nprint(a)', ['2 8 5 6', '8 2', '8 6 5 2', '2 5 6 8']],
+      [22, 1, 'logic', 'A ∧ (B ∨ B) логикалық өрнектің мәнін анықтаңыз:', '', ['0111', '1000', '1111', '0011']],
+      [23, 2, 'logic', 'Эйлер-Венн диаграммасына берілген логикалық амал. [VISUAL:23]', '', ['Логикалық терістеу', 'Логикалық азайту', 'Логикалық көбейту', 'Логикалық қосу']],
+      [24, 0, 'web', 'HTML-де сыртқы файлдарды жалғауға жауап беруші тег:', '', ['<link>', '<div>', '<body>', '<span>']],
+      [25, 2, 'sql', 'Деректер базасының students кестесіндегі өрістер саны:', 'CREATE TABLE students (\n  student_id INT(10),\n  student_name VARCHAR(50),\n  age INT,\n  course_name VARCHAR(20),\n  dateOfBirth DATE\n);', ['4', '6', '5', '7']],
+      [26, 0, 'logic', '100100111₂ екілік жүйеден сегіздік жүйеге аударғандағы мәні:', '', ['447', '517', '127', '295']],
+      [27, 0, 'excel', 'Жалпы сомасын есептеуге арналған формула: [VISUAL:27]', '', ['=СУММ(D2:D11)', '=СУММ(D2:D10)', '=СУММ(C2:C10)', '=СУММ(C2:C11)']],
+      [28, 0, 'excel', 'Мәтіндік типте берілген ұяшық адресі: [VISUAL:28]', '', ['A1', 'A4', 'A2', 'A3']],
+      [29, 1, 'python', 'Python-да шексіз цикл кезінде программаны тоқтату үшін басылатын пернелер комбинациясы:', '', ['Ctrl+V', 'Ctrl+C', 'Ctrl+Z', 'Ctrl+B']],
+      [30, 3, 'hardware', 'Процессордың командаларын тізбекпен орындалуын қамтамасыз ететін құрылғы:', '', ['Арифметикалық-логикалық құрылғы', 'Регистр', 'Кэш-жады', 'Басқару құрылғысы']],
+      [31, 1, 'logic', '127₈ сегіздік жүйеден екілік жүйеге аударғандағы мәні:', '', ['1111110', '1010111', '1111111', '1010110']],
+      [32, 3, 'logic', 'Ақиқат пікірді анықтаңыз:', '', ['6/2=2 және 6/3=3', '6/2=3 және 6/3=3', '6/2=2 және 6/3=2', '6/2=3 және 6/3=2']],
+      [33, 1, 'logic', 'Қуаттылығы 64 символ болатын алфавиттің бір таңбасының ақпараттық салмағы:', '', ['4 бит', '6 бит', '8 бит', '2 бит']],
+      [34, 2, 'web', 'HTML-де сырғымалы жол екі жаққа да кезек-кезек сырғыту үшін BEHAVIOR атрибутының мәні:', '', ['RIGHT-LEFT', 'MIDDLE', 'ALTERNATE', 'INFINITE']],
+      [35, 2, 'security', 'Криптографияның қызметі:', '', ['шифр арқылы ашылған ақпараттарды кері шифрлауды қарастырады', 'криптожүйенің осал жерлерін іздеумен шұғылданады', 'хабардың құпиялылығы сақталатын әдістермен қамтамасыз етеді', 'криптоаналитикалық зерттеулер негізінде ашық мәтінмен кілттерді табады']],
+      [36, 0, 'network', 'Ақпаратты тарату ортасының типтеріне жатпайды:', '', ['желілік', 'сымсыз', 'Li-Fi', 'сымдық']],
+      [37, 0, 'ai', 'Графикалық кескінді торкөзде пиксельдер арқылы салатын графика:', '', ['растрлық', 'графикалық', 'фото сурет', 'векторлық']],
+      [38, 1, 'ai', 'Құрылатын бейнефильм нәтижесінде қандай болу керектігін сипаттайтын кезең:', '', ['монтажды алдын ала қарау', 'монтаждау жоспарын құру', 'іріктелген бөліктермен жұмыс істеу', 'кездескен кемшіліктерді түзету']],
+      [39, 1, 'python', '1-ден 100-ді қоса алғанда аралығындағы сандардың қосындысын табатын программа коды:', '', ['s=0; for i in range(1, 100, 2): s+=i; print(s)', 's=0; for i in range(1, 101): s+=i; print(s)', 's=0; for i in range(1, 100): s+=i; print(s)', 's=0; for i in range(1, 100): s*=i; print(s)']],
+      [40, 3, 'logic', '«АҚПАРАТ» сөзінің ақпараттық өлшемін битпен есептеңіз:', '', ['19', '7168', '7', '56']],
+      [41, 3, 'hardware', 'Бірінші буынға жататын компьютер:', '', ['IBM/360', 'Аналитикалық машина', 'Z1', 'ENIAC']],
+      [42, 3, 'ai', 'Графика түрін анықтаңыз [VISUAL:42]', '', ['графикалық', 'фото сурет', 'растрлық', 'векторлық']],
+      [43, 2, 'logic', 'Unicode кодтау кестесі арқылы кодтауға болатын символ саны', '', ['2¹²', '2¹⁰', '2¹⁶', '2⁸']],
+      [44, 0, 'web', 'Тақырып, абзац не сілтемеге төменде берілген CSS стилін HTML-де қолдануға арналған селектор:', '#red { color: red; }', ['Id', 'Style', 'Class', 'Type']],
+      [45, 0, 'security', 'Динамикалық әдіске жататын биометриялық аутентификация сипаттамасы:', '', ['қолтаңба бойынша', 'саусақ іздері', 'алақанның пішіні бойынша', 'көздің сыртқы мөлдір қабығы бойынша']],
+      [46, 3, 'security', 'Құпия кілтті бұзып ашуға қарсы тұратын ақпарат қабілеті:', '', ['құпиялылық', 'ашықтық', 'сенімділігі', 'беріктігі']],
+      [47, 1, 'network', 'Жұлдыз тәрізді топологияға қосылудың ортақ нүктесі болатын құрылғы:', '', ['шина', 'хаб', 'Bluetooth', 'маршрутизатор']],
+      [48, 1, 'hardware', 'Бірінші буын компьютерлері қолданыста болған кезеңдер:', '', ['1955-1964', '1946-1954', '1642-1834', '1927-1942']],
+      [49, 1, 'hardware', 'Компьютердің барлық құрылғысын байланыстыратын ақпараттық магистраль.', '', ['Процессор интерфейсі', 'Жүйелік шина', 'Сопроцессор', 'Регистрлер']],
+      [50, 2, 'python', 'Программа нәтижесі:', 'a = [10, 8, 7]\nb = [6, 5]\nc = a + b\nprint(c)', ['24, 11', '35', '[10, 8, 7, 6, 5]', '9 8 7 6 5']],
+      [51, 1, 'excel', 'B1 ұяшығының мәні [VISUAL:51]', '', ['8', '5', 'ИСТИНА', 'ЛОЖЬ']],
+      [52, 1, 'python', 'Функция денесі функцияның өзін шақыратын жағдай.', '', ['айнымалы', 'рекурсия', 'жолдар', 'оператор']],
+      [53, 2, 'ai', 'Нейрондық желіні құрайтын нейрондар типіне қарай бөлінеді:', '', ['мұғаліммен оқыту, мұғалімсіз оқыту', 'бірқабатты, көпқабатты', 'біртекті, гибридті', 'рекуррентті, бірбағытты']],
+      [54, 0, 'network', '100 Мбит/с, жоғары жылдамдықты жарық сәулелері арқылы ақпарат берілетін кабель түрі.', '', ['оптикалық талшықты', 'спутниктік байланыс', 'инфрақызыл лазерлер', 'радиобайланыс']],
+      [55, 1, 'web', '«Мектеп» сөзіне (моноширина / телетайп стилі) қолданылған HTML тегі:', '', ['<s> </s>', '<TT> </TT>', '<U> </U>', '<i> </i>']],
+      [56, 0, 'python', 'Программа нәтижесі:', 's = "informatika"\nprint(s[2:-4])', ['forma', 'nforma', 'format', 'nformat']],
+      [57, 0, 'sql', 'SQL тілінде нәтижелерді сұрыптау тәртібін анықтау үшін...', '', ['ORDER BY', 'ALTER TABLE', 'SELECT FROM', 'WHERE']],
+      [58, 1, 'network', 'IP: 135.174.234.56 және Маска: 255.255.254.0 пайдаланып табылатын ішкі желі адресі.', '', ['135.174.234.10', '135.174.234.0', '135.74.23.1', '135.17.1.56']],
+      [59, 3, 'ai', 'Машиналық оқытуда нарықтағы тауарды талдау, дүкен сөрелерін безендіру, сатылымды жобалау сияқты тапсырмалар мәні:', '', ['регрессия', 'жалпылау', 'жіктеу', 'ассоциация']],
+      [60, 0, 'network', '10 км аумаққа дейін алыс қашықтықтағы әртүрлі құрылғыларға сымсыз байланыс беретін әмбебап технология:', '', ['Wimax', 'Bluetooth', 'Wifi', 'Airdrop']],
+      [61, 0, 'web', '<TD colspan = 2> жолының мағынасы:', '', ['шектес бағандардан екі ұяшықты біріктіреді', 'кесте ұяшығының екі жағын көрсетеді', 'шектес жолдардан екі ұяшықты біріктіреді', 'көршілес жатқан екі кестені біріктіреді']],
+      [62, 2, 'python', 'Программаға -4, 5, 12, 24, 36 сандары берілгенде алынатын нәтиже:', 'N = 5\ni = x = z = 0\nfor i in range(1, N + 1):\n    x = int(input())\n    if x % 10 == 4:\n        z += 1\nprint(z)', ['6', '5', '1', '2']],
+      [63, 2, 'logic', '165₁₀ санының екілік жүйедегі мәні:', '', ['10100111₂', '11000111₂', '10100101₂', '10011101₂']],
+      [64, 0, 'python', 'Программаға 4 және 5 сандары берілген кезде алынатын нәтиже:', 'a = int(input())\nb = int(input())\nk = 0\nif a % 2 == 0:\n    if b % 2 == 1:\n        k = a * b\n    else:\n        k = a + b\nprint(k)', ['20', '10', '29', '9']],
+      [65, 2, 'network', 'Қашықтағы компьютерлермен байланыс үшін қолданылатын және модуляция-демодуляция тудыратын құрылғы:', '', ['бағдарлауыш', 'коммутатор', 'модем', 'желілік түйін']],
+      [66, 0, 'network', 'Байланыс арналарының ақпарат жеткізу жылдамдығының өлшем бірлігі:', '', ['бод', 'байт', 'бит', 'кбайт']],
+      [67, 3, 'logic', '142₁₀ санының екілік жүйедегі мәні:', '', ['11000101₂', '10011111₂', '11100101₂', '10001110₂']],
+      [68, 1, 'logic', 'Берілген комбинациялық сызбаға сәйкес логикалық функция: [VISUAL:68]', '', ['F(A,B) = Ā & (A & B)', 'F(A,B) = Ā & B', 'F(A,B) = A & (Ā & B)', 'F(A,B) = B̄ & A']],
+      [69, 1, 'sql', 'Әрқайсысы бір-бірімен байланысқан түйіндер жиынтығынан тұратын деректер базасы:', '', ['кестелік', 'желілік', 'иерархиялық', 'фактографиялық']],
+      [70, 0, 'hardware', 'Процессордың ішкі жадысы:', '', ['РЕГИСТР', 'ШИНА', 'АЛҚ', 'БҚ']],
+      [71, 1, 'python', 'Программа орындалғаннан кейін numbers тізімінің мәні:', 'numbers = [37, 58, 35, 96, 67]\nfor number in numbers:\n    if number % 2 == 1:\n        number += 1\nprint(numbers)', ['[38, 58, 36, 96, 68]', '[37, 58, 35, 96, 67]', '[38, 59, 36, 97, 68]', '[37, 59, 35, 97, 67]']],
+      [72, 2, 'security', 'Mac құрылғыларында резервтік көшірме жасау қызметін ұсынады:', '', ['UltraISO', 'WinRar', 'Time machine', 'UnZip']],
+      [73, 1, 'security', 'Әртүрлі құпия ақпаратты қатынас құру құқығын бұзбай пайдаланушылар тобының бір уақытта өңдеуін қамтамасыз ету үшін жеткілікті ақпараттық және программалық құралдарды қолданатын:', '', ['ақпаратты қорғау', 'қауіпсіз жүйе', 'қолжетімділік', 'сенімді жүйе']],
+      [74, 1, 'excel', 'Формула А1 ұяшығынан В2 ұяшығына көшірілген кезде алынатын мән: [VISUAL:74]', '', ['30', '13', '20', '15']],
+      [75, 3, 'logic', '160₁₀ санының екілік жүйедегі мәні:', '', ['10110101₂', '11010011₂', '10010111₂', '10100000₂']],
+      [76, 3, 'hardware', 'Үшінші буын компьютерлерінің элементтік базасы:', '', ['оптоэлектроника', 'жартылай өткізгіш', 'электрондық шамдар', 'интегралды микросхема']],
+      [77, 1, 'web', 'HTML/CSS кодына сәйкес нәтиже (блоктардың орналасуы):', 'div {\n  border: solid 1px black;\n}\n.top {\n  position: relative;\n  background-color: red;\n  height: 100px;\n  width: 100%;\n}\n.left {\n  position: relative;\n  background-color: blue;\n  left: 50px;\n  width: 200px;\n}\n.main {\n  position: absolute;\n  background-color: green;\n  left: 214px;\n  margin-right: 8px;\n}', ['[OPT_SVG:77A]', '[OPT_SVG:77B]', '[OPT_SVG:77C]', '[OPT_SVG:77D]']],
+      [78, 2, 'hardware', '1623 жылы арифметикалық төрт амалды орындауға арналған алғашқы механикалық машинаны ойлап тапқан неміс астрономы:', '', ['Б. Паскаль', 'Ч. Бэббидж', 'В. Шиккард', 'А. Лавлейс']],
+      [79, 3, 'python', 'Программаның орындалуы аяқталған соң, x айнымалысының мәнін анықтаңыз:', 'i = j = x = 0\nfor i in range(1, 4):\n    for j in range(i + 1, 4):\n        x += 1\nprint(x)', ['14', '33', '7', '3']],
+      [80, 0, 'ai', 'Қағазда, мониторда, теледидар экранында кескінді құрайтын нүктелердің екіөлшемді жиынтығы:', '', ['растр', 'сурет', 'редактор', 'вектор']],
+      [81, 3, 'python', 'N = 5 кезінде, программа нәтижесінде экранға шығады:', 'n = int(input())\nj = n\nfor i in range(n):\n    print("&" * j + " " * i)\n    j = j - 1', ['[OPT_ASCII:81A]', '[OPT_ASCII:81B]', '[OPT_ASCII:81C]', '[OPT_ASCII:81D]']],
+      [82, 1, 'security', 'Виженер шифрлау әдісін пайдаланып, «sport» сөзін шифрлаңыз, мұндағы кілт = «red»:', '', ['ports', 'jtrix', 'trops', 'kusjy']],
+      [83, 1, 'web', 'Белсенді, яғни тінтуір көрсетіп тұрған сілтеме түсін анықтайтын атрибут:', '', ['vlink', 'alink', 'link', 'dlink']],
+      [84, 2, 'logic', 'CE9₁₆ санының екілік жүйедегі мәні:', '', ['110011010110₂', '110001001101₂', '110011101001₂', '110011101000₂']],
+      [85, 0, 'sql', 'SQL сұраныстарда LIKE операторындағы кез келген жолдың ұзындығын көрсетуге арналған арнайы символ:', '', ['%', '[^]', '[]', '_']],
+      [86, 2, 'python', 'a = 8; b = 5; c = 3 болған кезде алынатын нәтиже:', 'a = int(input())\nb = int(input())\nc = int(input())\nif a % 2 == 0:\n    if b % 2 == 1:\n        k = b // c\n    else:\n        k = a // c\nelse:\n    k = (a + b) % c\nprint(k)', ['-1', '3', '1', '7']],
+      [87, 2, 'sql', 'Деректер базасының өрісінде орналасқан белгілі қасиеті жазылған кестенің қатары:', '', ['өріс', 'атрибут', 'жазба', 'нысан']],
+      [88, 0, 'excel', 'Мектепке қабылдау туралы кесте берілген, шешімге сәйкес келетін шарт: [VISUAL:88]', '', ['орташа ұпайы 13-тен жоғары және математикадан 15-тен жоғары ұпай жинаған оқушылар қабылданады.', 'орташа ұпайы 13-ке тең немесе жоғары және математикадан 15-ке тең немесе жоғары ұпай жинаған оқушылар қабылданады.', 'орташа ұпайы 13-тен жоғары немесе ағылшын тілінен 10-нан жоғары ұпай жинаған оқушылар қабылданады.', 'орташа ұпайы 14-тен жоғары және қазақ тілінен 12-ден жоғары ұпай жинаған оқушылар қабылданады.']],
+      [89, 0, 'hardware', 'Микропроцессор мен сыртқы құрылғылар арасындағы деректер ағыны мен олардың көлемін басқаратын құрылғылар:', '', ['процессор интерфейсі', 'басқару құрылғысы', 'регистрлер', 'сопроцессор']],
+      [90, 1, 'excel', 'Excel электрондық кестесінде ПОИСКПОЗ функциясына тиісті аргументтер саны:', '', ['4', '3', '2', '5']],
+      [91, 2, 'excel', 'Excel электрондық кестесінде «Шартты форматтау» батырмасы орналасқан мәзір бөлімі:', '', ['түр', 'формулалар', 'басты', 'кірістіру']],
+      [92, 1, 'excel', 'Орналасқан мәндеріне қарай ұяшықтарды екі немесе үш түске бояу арқылы ерекшелеу:', '', ['таңбалар жиынтығы', 'түрлі түсті шәкілдер', 'диаграмма', 'гистограмма']],
+      [93, 2, 'ai', '256-дан аспайтын түстердің саны бар суреттерге арналған файл кеңейтілімі:', '', ['bmp', 'eps', 'gif', 'png']],
+      [94, 0, 'python', 'Программаның нәтижесін анықта:', 'def function(a, b):\n    if a % 2 == 0 and b % 2 == 1:\n        return a * b\n    else:\n        return 0\nx = 4\ny = 7\nprint(function(x, y))', ['28', 'программа орындалмайды', '0', '4 7']],
+      [95, 3, 'web', 'Төмендегі CSS стиль ережесінің жұмысы:', '#menu ul li a:hover {\n  background-color: #eee;\n}', ['<ul> ішіндегі барлық <li> элементтерінің фоны тышқанмен үстінен өткенде өзгереді.', 'Барлық <a> сілтемелерінің түсін өзгертеді.', 'Барлық #menu элементінің түсі өзгереді.', '#menu ішіндегі <a> тегі үшін тышқанмен үстінен өткенде фоны өзгереді.']],
+      [96, 3, 'ai', 'Бейнемен жұмыс істеу үшін программаларды таңдау кезінде ең басты ескеретін жағдай:', '', ['дербес компьютердің жүйелік талаптары', 'нарықтағы құны', 'программа қасиеттері мен сипаттамалары', 'программа мүмкіндіктері']],
+      [97, 1, 'logic', '¬C ∨ (¬B ∧ ¬A ∧ ¬C) логикалық өрнегі үшін құрылған ақиқат кестесінің соңғы бағанындағы «жалған» пікірлер саны:', '', ['0', '4', '6', '2']],
+      [98, 2, 'sql', "LIKE 'a_%_%_%' жолының мағынасы", '', ['кемінде 3 рет «а» әріпі кездесетін өрнектерді іздеу', '«а» әріпінен басталатын және аяқталатын өрнектерді іздеу', '«а» әріпінен басталатын және ұзындығы 4-тен кем емес өрнектерді іздеу', '«а» әріпінен басталатын өрнектерді іздеу']],
+      [99, 3, 'excel', '«Табу және Ауыстыру» диалогтік терезесі арқылы іздеу кезінде кез келген таңбалар санына сәйкес ауыстырмалы таңба', '', ['!', '?', '#', '*']],
+      [100, 2, 'sql', 'Деректерді реляциялық ұйымдастыру түрі', '', ['желілік', 'иерархиялық', 'кестелік', 'құжаттық']],
+      [101, 3, 'network', 'Маска болуы мүмкін нұсқа', '', ['255.255.192.255', '255.255.248.255', '255.255.248.1', '255.255.255.192']],
+      [102, 0, 'network', 'Өлшемі 2 Мбайт файлды 33600 бит/с жылдамдықпен тасымалдау уақыты', '', ['499 с', '512 с', '4096 с', '256 с']],
+      [103, 0, 'ai', 'Пайдаланушының назарын аударуға арналған видеоматериалдар', '', ['вирустық видеолар', 'имидж ролик', 'оқу роликтері', 'презентация роликтер']],
+      [104, 3, 'ai', 'Машиналық оқытуда қолданушыларды: жасы, мамандығы, қызығушылығы және т.с.с жеке критерийлер бойынша бөлу тапсырмасы', '', ['жалпылау', 'регрессия', 'ассоциация', 'жіктеу']],
+      [105, 1, 'logic', '¬A ∧ ¬B ∨ B ∨ A ∧ C логикалық өрнегі үшін құрылған ақиқат кестесінің соңғы бағанындағы «ақиқат» пікірлер саны', '', ['2', '7', '0', '4']],
+      [106, 0, 'python', 'Программа нәтижесінде орындалады:', 'def XXX(x):\n    s = 0\n    while x > 0:\n        s = s + x % 10\n        x = x // 10\n    print(s)\nn = int(input())\nXXX(n)', ['енгізілген санның цифрларының қосындысын есептейді', 'енгізілген санды ондық санау жүйесіне ауыстырады', 'енгізілген санның цифрларының санын есептейді', 'енгізілген санды екілік санау жүйесіне ауыстырады']],
+      [107, 2, 'python', 'Элементтерін өзгертуге мүмкін емес тізімге ұқсас мәліметтер типі', '', ['массив (array)', 'сөздік (dictionary)', 'кортеж (tuple)', 'айнымалы (variable)']],
+      [108, 3, 'hardware', 'Команданы орындауға қажетті уақыт аралығында, команданың кодын сақтап тұратын басқару құрылғысының регистрі', '', ['Сумматор', 'Командалар есептеуіші', 'Шина', 'Командалар регистрі']],
+      [109, 3, 'ai', 'Векторлық бейнелердің сапасы компьютердің аппараттық конфигурациясына', '', ['айқын бейнеленеді', 'тәуелді', 'кері әсер етеді', 'тәуелді емес']],
+      [110, 0, 'python', 'split() әдісінің нәтижесінде алынатын құрылымдық деректер түрі', '', ['сөздер тізімі', 'кортеж', 'жиын', 'сөздік']],
+      [111, 3, 'logic', 'Алфавит қуаттылығы 64 символдан тұратын, ақпарат көлемі 2 Кбайт мәтіндегі символ саны', '', ['409', '2048', '561', '2730']],
+      [112, 2, 'excel', 'Excel-де A$1 ұяшығын төменге қарай толтыру кезінде келесі ұяшықтағы сілтеме түрі', '', ['B2', 'A2', 'A$1', 'B$2']],
+      [113, 1, 'security', 'Белгілі бір тұлғалар немесе олардың атынан әрекет жасайтын үрдістер ғана ақпаратты оқу, жазу, құрастыру және жою құқығына ие болады', '', ['құпия жүйе', 'қауіпсіз жүйе', 'сенімді жүйе', 'қолжетімді жүйе']],
+      [114, 3, 'hardware', '1942 жылы электрондық цифрлық ABC компьютерін құрған ғалым', '', ['Блез Паскаль', 'Конрад Цузе', 'Чарльз Бэббидж', 'Джон Атанасов']],
+      [115, 1, 'python', '[1, 6, 9, 7, 8, 3] тізімін «көпіршік» әдісімен кему бойынша сұрыптау жасалғанда, екінші итерациядан кейін массив өзгереді', '', ['[9, 8, 7, 6, 3, 1]', '[6, 9, 7, 8, 3, 1]', '[6, 9, 1, 7, 8, 3]', '[6, 9, 7, 8, 1, 3]']],
+      [116, 3, 'python', 'Нәтижесін анықта:', 's = 0\nfor i in range(2, -2, -1):\n    s = s + i\nprint(s)', ['-2', 'программа орындалмайды', '0', '2']],
+      [117, 3, 'logic', '163₁₀ санының екілік жүйедегі мәні', '', ['10111001₂', '10010111₂', '11100101₂', '10100011₂']],
+      [118, 2, 'security', 'Виженер шифрлау әдісін пайдаланып, «map» сөзін шифрлаңыз, мұндағы кілт = «app»', '', ['nqf', 'abc', 'mpe', 'pam']],
+      [119, 2, 'security', 'Ақпаратқа заңсыз қол жеткізілуден немесе оқылудан қорғалуы', '', ['сенімді жүйе', 'қауіпсіз жүйе', 'құпиялылық', 'қолжетімділік']],
+      [120, 0, 'excel', 'B8 ұяшығына =ОКРУГЛВВЕРХ(СРЗНАЧ(B2:B7);0) функциясын орнатқаннан кейінгі B8 ұяшығының мәні [VISUAL:120]', '', ['1634', '1634,33', '1633', '1633,33']],
+      [121, 2, 'logic', 'C76₁₆ санының сегіздік жүйедегі мәні', '', ['7060₈', '6710₈', '6166₈', '5860₈']],
+      [122, 2, 'web', 'HTML кодта қолданылған тізім түрі:', '<ol type="A">\n  <li>Физика</li>\n  <li>Химия</li>\n</ol>', ['Аралас тізім', 'Сандық тізім', 'Әріптік тізім', 'Анықталмаған тізім']],
+      [123, 2, 'python', 'Программаның нәтижесі:', 'for i in range(0, 10):\n    if i % 2 == 0:\n        continue\n    print(i, end=" ")', ['2 4 6 8', '1 3 5 7', '1 3 5 7 9', '2 4 6 8 10']],
+      [124, 1, 'web', 'Қаріп қалыңдығын анықтайтын қасиеті', '', ['font-style', 'font-weight', 'font-size', 'font-family']],
+      [125, 0, 'python', 'Программаға 3 және 4 сандары берілген кезде алынатын нәтиже:', 'a = int(input())\nb = int(input())\nif a % 2 == 0:\n    a = a ** a\nk = a + b\nprint(k)', ['7', '1', '13', '10']],
+      [126, 1, 'ai', 'Күрделі фигураларды құру немесе түзетуге арналған құрал', '', ['шеңбер', 'контур', 'жұлдызша', 'таңдау']],
+      [127, 1, 'logic', '(A ∨ B) ∧ (¬A ∨ B) логикалық өрнегі үшін құрылған ақиқат кестесінің соңғы бағанындағы «ақиқат» пікірлер саны', '', ['0', '2', '3', '4']],
+      [128, 1, 'sql', 'Есептеулерді қажет етпейтін символдық немесе сандық мәліметтерді сақтау үшін пайдаланылатын мәліметтер типі:', '', ['логикалық', 'мәтіндік', 'уақыт', 'сандық']],
+      [129, 2, 'network', 'Интернет қызметтері көмегімен құрылған ішкі қолдануға арналған корпоративті IP-желі:', '', ['Ethernet', 'TCP/IP', 'Intranet', 'Internet']],
+      [130, 0, 'web', 'Кесте құруда құрылымында жіберілген семантикалық қателікті анықтаңыз:', '<table>\n  <tr>\n    <td colspan="2">Мәлімет</td>\n  </tr>\n  <tr>\n    <td>Есім</td>\n    <td>Айжан</td>\n  </tr>\n  <tr>\n    <td>Жасы</td>\n    <td>18</td>\n  </tr>\n</table>', ['<td> орнына <th> қолдану керек', '<tbody> жетіспейді', '<caption> жетіспейді', 'colspan дұрыс қолданылмаған']],
+      [131, 2, 'logic', 'Хабарламаны тек 0 және 1 символдарының көмегімен жазуға арналған код:', '', ['сегіздік код', 'ондық код', 'екілік код', 'он алтылық код']],
+      [132, 3, 'excel', 'Формуланы C1 ұяшығынан C2 ұяшығына көшіргеннен кейін C2 ұяшығындағы мән: [VISUAL:132]', '', ['90', '70', '95', '85']],
+      [133, 1, 'hardware', 'II буын компьютерлерінің элементтік базасы:', '', ['электрондық шамдар', 'жартылай өткізгіштер', 'интегралдық микросхема', 'үлкен интегралдық схема']],
+      [134, 3, 'web', 'Элементтің беттегі қалыпты орнына қатысты орналасуын орындайтын position қасиетінің мәні:', '', ['fixed', 'absolute', 'static', 'relative']],
+      [135, 3, 'excel', 'Мектепке орташа ұпай саны 13-тен жоғары және математикадан жинаған ұпайы 15-тен жоғары оқушылар қабылданады. F2 ұяшығына жазылуға тиіс формула: [VISUAL:135]', '', ['=И(ИЛИ(E2>=13; B2>=15); "Қабылданды"; "Қабылданбады")', '=ЕСЛИ(ИЛИ(E2>13; B2>15); "Қабылданды"; "Қабылданбады")', '=ИЛИ(И(E2>=13; B2>=15); "Қабылданды"; "Қабылданбады")', '=ЕСЛИ(И(E2>13; B2>15); "Қабылданды"; "Қабылданбады")']],
+      [136, 2, 'logic', '171₁₀ санының екілік жүйедегі мәні:', '', ['11000111₂', '11100111₂', '10101011₂', '10101001₂']],
+      [137, 2, 'hardware', 'Заманауи компьютер процессорларын құрастырушы компания:', '', ['Adobe', 'Lenovo', 'AMD', 'HP']],
+      [138, 0, 'sql', '«employee» кестесінен «нәтиже» кестесін алу үшін жазылған сұраныс [VISUAL:138]', '', ['select first_name from employee where age > 26;', 'select distinct(first_name) where age between 25 and 35;', 'select * from employee where age > 26;', 'select * count(id) where age between 25 and 35;']],
+      [139, 3, 'excel', 'Берілген шартқа сәйкес келетін диапазон аралығындағы аргументтер санын есептейтін функция', '', ['СЧЕТЕСЛИ(аргумент1; аргумент2)', 'СЧЕТЕСЛИ(аргумент1; аралық; шарт)', 'СЧЕТЕСЛИ(шарт; аралық)', 'СЧЕТЕСЛИ(аралық; шарт)']],
+      [140, 0, 'python', 'Программа нәтижесі:', 'a = 10\nb = 5\nif a > 5 and a < b:\n    b -= 10\nprint(b)', ['5', '10', '3', '1']],
+      [141, 2, 'python', 's айнымалысының мәні «and BC AA BA» болған кезде алынатын нәтиже:', 's = input()\nnew = ""\nfor c in s:\n    if c == "a":\n        c = "b"\n    new = new + c\nprint(new)', ['BBB AC BB AB', 'AND ac bb ab', 'bnd BC AA BA', 'bbb BB BB BB']],
+      [142, 3, 'web', 'Сыртқы CSS қолданудың дұрыс нұсқасы', '', ['<link src="style.css">', '<style src="style.css"></style>', '<script src="style.css"></script>', '<link href="style.css" rel="stylesheet" type="text/css">']],
+      [143, 3, 'logic', '¬A ∧ B ∧ C ∨ ¬A ∨ B ∨ C логикалық өрнегі үшін құрылған ақиқат кестесінің соңғы бағанындағы «ақиқат» пікірлер саны', '', ['5', '1', '3', '7']],
+      [144, 1, 'ai', 'Растрлық графика редакторы', '', ['Adobe Illustrator', 'Adobe Photoshop', 'PhotoBrush', 'CorelDraw']],
+      [145, 2, 'web', 'HTML тілінде <TD colspan = 3> тегінің нәтижесі', '', ['ұяшықтарды бір қатарға біріктіруге мүмкіндік береді', 'ұяшық ішіндегі мәліметтерді көлденеңінен туралауға мүмкіндік береді', 'шектес бағандардан үш ұяшықты біріктіреді', 'шектес жолдардан екі ұяшықты біріктіреді']],
+      [146, 1, 'logic', 'ASCII халықаралық стандартында басқарушы символдар мен латын әріптері орналасқан кесте бөлігі', '', ['қосымша', 'стандартты', 'кеңейтілген', 'баламалы']],
+      [147, 3, 'python', 'Программаның орындалуы аяқталған соң, x айнымалысының мәнін анықтаңыз, мұндағы N = 8:', 'N = int(input())\ni = k = 0\nx = 10\nfor i in range(1, N + 1):\n    for k in range(0, i):\n        x = x + (k - 1)\nprint(x)', ['63', '39', '18', '58']],
+      [148, 2, 'python', 's айнымалысының мәні «ABC and bc AND b» болған кезде алынатын нәтиже:', 's = input()\nnew = ""\nfor c in s:\n    if c == "a":\n        c = "b"\n    new = new + c\nprint(new)', ['bac BND AC BND a', 'BAC and ac BND a', 'ABC bnd bc AND b', 'BBB bbb bb BBB b']],
+      [149, 3, 'hardware', 'Командалар мен процессорда өңделген ақпараттарды сақтайтын, процессор ішінде орналасқан жад ұяшықтары', '', ['кэш-жад', 'сопроцессор', 'сыртқы жад', 'регистрлер']],
+      [150, 3, 'ai', 'Бейне түсін қажетіне қарай жылтырақ етуге мүмкіндік береді', '', ['контраст', 'қанықтық', 'температура', 'жарықтық']],
+      [151, 2, 'ai', 'Компьютерде модельдеудің кезеңдер саны', '', ['5', '3', '4', '6']],
+      [152, 0, 'logic', 'Ақиқат кестесінде орындалған соңғы логикалық операция [VISUAL:152]', '', ['дизъюнкция', 'инверсия', 'импликация', 'конъюнкция']],
+      [153, 3, 'logic', '150₁₀ санының екілік жүйедегі мәні', '', ['11000101₂', '10100111₂', '10001101₂', '10010110₂']],
+      [154, 3, 'web', 'Элементтің тұрақты позициясын анықтайтын position қасиетінің мәні', '', ['relative', 'static', 'absolute', 'fixed']],
+      [155, 1, 'excel', 'Ұяшықты форматтау терезесіндегі бөлімдер саны', '', ['5', '6', '3', '4']],
+      [156, 2, 'hardware', 'Ақпаратпен алмасу сипаттамасын анықтайтын оқу, жазу, дайындық тәрізді сигналдар жіберетін байланыстырушы', '', ['сумматор', 'адрестік шина', 'басқару шинасы', 'деректер шинасы']],
+      [157, 0, 'security', 'Ақпараттың динамикалық тұтастығының бұзылуы', '', ['деректерді өзгерту', 'қате ақпарат енгізу', 'деректерді ұрлау', 'компьютерлік істен шығуы']],
+      [158, 1, 'sql', 'Бір кестеден немесе бір-бірімен байланысқан көп кестеден тұратын деректер базасы', '', ['иерархиялық', 'кестелік', 'фактографиялық', 'желілік']],
+      [159, 2, 'network', 'Өткізу қабілеті 100 Мбит/с асатын байланыс түрі', '', ['телефон торабы', 'коаксиальді кабель', 'оптоталшық кабель', 'есулі қосақ']],
+      [160, 3, 'logic', 'Сегіздік санау жүйесіндегі 64₈ санының ондық санау жүйесіндегі мәні', '', ['43', '34', '46', '52']],
+      [161, 2, 'hardware', '1946 жылы АҚШ-та құрастырылған әлемдегі алғашқы ЭЕМ', '', ['Macintosh', 'Intel', 'ENIAC', 'Altair-8800']],
+      [162, 1, 'sql', 'Деректер қорында кестеге деректер енгізу командасының синтаксисі', '', ["UPDATE 'tableName' where 'condition';", "INSERT INTO 'tableName' VALUES (value_1, value_2, value_3, ...);", "CREATE DATABASE 'name_database';", "CREATE TABLE 'TableName' ('fieldName' dataType [қосымша параметр]);"]],
+      [163, 3, 'web', 'HTML тілінде кестенің ұяшық жиегінің түсін анықтайтын атрибут', '', ['background-color', 'bgcolor', 'color', 'bordercolor']],
+      [164, 1, 'security', 'Серверде енгізілген жеке деректерді тексеру және қабылдау', '', ['регистрация', 'валидизация', 'аутентификация', 'идентификация']],
+      [165, 1, 'sql', 'Кестедегі жазбаны бірегей түрде анықтайтын өрістердің ең аз жиыны', '', ['логикалық кілт', 'бастапқы кілт', 'сыртқы кілт', 'сұрағатты кілт']],
+      [166, 1, 'ai', 'Машинаның алдын ала мұғалім берген деректерді пайдаланып нақты мысалдар негізінде үйрену әдісі', '', ['мұғалімсіз оқыту', 'мұғаліммен машиналық оқыту', 'қосымша ақпаратты қолдану негізінде оқыту', 'нейрожелілер']]
+    ];
+
+    const CODE_OPT_IDS = new Set([2, 4, 18, 39, 142, 162]);
+
+    const QUESTIONS = RAW_QUESTIONS.map(([id, ans, topic, q, code, opts]) => ({
+      id,
+      ans,
+      topic,
+      q: q.replace(/\s*\[VISUAL:\d+\]\s*/g, '').trim(),
+      code,
+      opts,
+      hasVisual: Boolean(VISUALS[id] || opts.some(o => o.startsWith('[OPT_'))),
+      hasCode: Boolean(code) || CODE_OPT_IDS.has(id)
+    }));
+
+    const Q_BY_ID = new Map(QUESTIONS.map(q => [q.id, q]));
+
+    /* 8 Thematic Sections (combining network + security cleanly) */
+    const TOPICS = [
+      { id: 'python',   tags: ['python'],             name: 'Python & Алгоритмдер',    icon: '🐍', desc: 'Циклдер, тізім, жол, рекурсия, функциялар, сұрыптау' },
+      { id: 'excel',    tags: ['excel'],              name: 'Excel & Формулалар',      icon: '📊', desc: 'СТЕПЕНЬ, СУММ, ЕСЛИ, СЧЕТЕСЛИ, абсолютті сілтемелер' },
+      { id: 'web',      tags: ['web'],                name: 'HTML & CSS',              icon: '🎨', desc: 'Тегтер, атрибуттар, селекторлар, position, кесте, тізім' },
+      { id: 'sql',      tags: ['sql'],                name: 'SQL & Деректер қоры',     icon: '🗄️', desc: 'CREATE TABLE, SELECT, ORDER BY, LIKE, INSERT, кілттер' },
+      { id: 'hardware', tags: ['hardware'],           name: 'Архитектура & Тарих',     icon: '⚡', desc: 'Процессор, шина, регистр, ЭЕМ буындары, ғалымдар' },
+      { id: 'netsec',   tags: ['network','security'], name: 'Желі & Қауіпсіздік',      icon: '🌐', desc: 'IP, маска, кабель, 4G, Виженер, криптография, биометрия' },
+      { id: 'logic',    tags: ['logic'],              name: 'Логика & Санау жүйелері', icon: '🧮', desc: '2/8/10/16 жүйелер, Эйлер-Венн, ақиқат кестесі, Unicode' },
+      { id: 'ai',       tags: ['ai'],                 name: 'Графика & ЖИ',            icon: '🤖', desc: 'Растр/вектор, бейнемонтаж, нейрондық желілер, ML' }
+    ];
+
+    function getTopicMeta(tag) {
+      return TOPICS.find(t => t.tags.includes(tag)) || TOPICS[0];
+    }
+
+    /* =========================================================================
+       3. STATE, STORAGE & AUDIO SYNTHESIZER
+       ========================================================================= */
+    const STORE_KEY = 'info_pbb_2026_166_state_v1';
+    const LETTERS = ['A', 'B', 'C', 'D'];
+    const GAME_SEC = 40;
+    const EXAM_SEC = 60 * 60; // 60 minutes
+
+    const state = {
+      mode: 'game',       // 'game' | 'study'
+      tab: 'blocks',      // 'blocks' | 'topics' | 'exam' | 'crib'
+      soundOn: true,
+      cribFilter: 'all',  // 'all' | 'visual' | 'code' | topic.id
+      session: {
+        type: 'normal',   // 'normal' | 'exam' | 'errors'
+        key: null,
+        title: '',
+        instant: true,
+        list: [],
+        lastCfg: null,
+        idx: 0,
+        ans: [],          // null | -1 (timeout) | 0..3
+        flags: [],        // boolean[]
+        score: 0,
+        streak: 0,
+        bestStreak: 0,
+        timeLeft: GAME_SEC,
+        timer: null,
+        startedAt: 0
+      }
+    };
+
+    function esc(s) {
+      return String(s ?? '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+
+    function shuffle(arr) {
+      const a = [...arr];
+      for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+      }
+      return a;
+    }
+
+    function fmtTime(sec) {
+      const s = Math.max(0, Math.floor(sec));
+      return `${String(Math.floor(s / 60)).padStart(2, '0')}:${String(s % 60).padStart(2, '0')}`;
+    }
+
+    let toastTid = null;
+    function toast(msg) {
+      const el = document.getElementById('toast');
+      el.textContent = msg;
+      el.classList.add('show');
+      if (toastTid) clearTimeout(toastTid);
+      toastTid = setTimeout(() => el.classList.remove('show'), 3000);
+    }
+
+    const SFX = (() => {
+      let ctx = null;
+      function get() {
+        if (!ctx) {
+          const AC = window.AudioContext || window.webkitAudioContext;
+          if (AC) ctx = new AC();
+        }
+        if (ctx && ctx.state === 'suspended') ctx.resume();
+        return ctx;
+      }
+      function tone(freq, dur, type = 'sine', vol = 0.1, delay = 0) {
+        if (!state.soundOn) return;
+        try {
+          const c = get(); if (!c) return;
+          const o = c.createOscillator(), g = c.createGain();
+          o.type = type;
+          o.frequency.setValueAtTime(freq, c.currentTime + delay);
+          g.gain.setValueAtTime(vol, c.currentTime + delay);
+          g.gain.exponentialRampToValueAtTime(0.001, c.currentTime + delay + dur);
+          o.connect(g); g.connect(c.destination);
+          o.start(c.currentTime + delay);
+          o.stop(c.currentTime + delay + dur);
+        } catch (e) {}
+      }
+      return {
+        click: () => tone(480, 0.035, 'sine', 0.05),
+        ok: (st) => {
+          const lift = Math.min(st, 6) * 32;
+          tone(523.25 + lift, 0.09, 'triangle', 0.12, 0);
+          tone(659.25 + lift, 0.11, 'triangle', 0.12, 0.07);
+          tone(783.99 + lift, 0.17, 'sine', 0.14, 0.14);
+        },
+        err: () => {
+          tone(215, 0.12, 'sawtooth', 0.08, 0);
+          tone(150, 0.22, 'sawtooth', 0.08, 0.09);
+        },
+        win: () => [523.25, 659.25, 783.99, 1046.5].forEach((f, i) => tone(f, 0.22, 'triangle', 0.13, i * 0.1))
+      };
+    })();
+
+    function loadStore() {
+      try {
+        const d = JSON.parse(localStorage.getItem(STORE_KEY) || '{}');
+        return {
+          totalAttempts: Number(d.totalAttempts) || 0,
+          solvedIds: Array.isArray(d.solvedIds) ? d.solvedIds : [],
+          errors: Array.isArray(d.errors) ? d.errors : [],
+          bestExam: d.bestExam || null,
+          bestBlock: d.bestBlock || {}
+        };
+      } catch {
+        return { totalAttempts: 0, solvedIds: [], errors: [], bestExam: null, bestBlock: {} };
+      }
+    }
+
+    function saveStore(d) {
+      try { localStorage.setItem(STORE_KEY, JSON.stringify(d)); } catch (e) {}
+    }
+
+    function trackAnswer(qid, isOk, removeOnOk) {
+      const st = loadStore();
+      st.totalAttempts += 1;
+      if (isOk) {
+        if (!st.solvedIds.includes(qid)) st.solvedIds.push(qid);
+        if (removeOnOk) st.errors = st.errors.filter(x => x !== qid);
+      } else {
+        if (!st.errors.includes(qid)) st.errors.push(qid);
+      }
+      saveStore(st);
+    }
+
+    function saveBest(key, ok, tot, pct) {
+      const st = loadStore();
+      if (key === 'exam40') {
+        if (!st.bestExam || ok > st.bestExam.ok) st.bestExam = { ok, tot, pct };
+      } else if (key) {
+        const prev = st.bestBlock[key];
+        if (!prev || pct > prev.pct) st.bestBlock[key] = { ok, tot, pct };
+      }
+      saveStore(st);
+    }
+
+    /* =========================================================================
+       4. RENDER OPTION CONTENT (ESCAPED TEXT OR VISUAL SVG/ASCII)
+       ========================================================================= */
+    function renderOptHTML(optStr) {
+      if (OPT_VISUALS[optStr]) return OPT_VISUALS[optStr];
+      return esc(optStr);
+    }
+
+    /* =========================================================================
+       5. DASHBOARD RENDERERS
+       ========================================================================= */
+    function renderDashboard() {
+      const st = loadStore();
+      const visCount = QUESTIONS.filter(q => q.hasVisual).length;
+      const codeCount = QUESTIONS.filter(q => q.hasCode).length;
+
+      document.getElementById('kpi-total').textContent = QUESTIONS.length;
+      document.getElementById('kpi-sub').textContent = `${visCount} сурет/кесте • ${codeCount} кодты сұрақ`;
+      document.getElementById('kpi-solved').textContent = st.totalAttempts;
+      document.getElementById('kpi-unique').textContent = `${st.solvedIds.length} / ${QUESTIONS.length} игерілді`;
+
+      if (st.bestExam) {
+        document.getElementById('kpi-exam').textContent = `${st.bestExam.ok}/${st.bestExam.tot}`;
+        document.getElementById('kpi-exam-sub').textContent = st.bestExam.ok >= 32
+          ? `✅ 32+ Меже орындалды (${st.bestExam.pct}%)`
+          : `${st.bestExam.pct}% • Меже: ≥32/40`;
+        document.getElementById('exam-best-line').textContent = `🏆 Үздік нәтижеңіз: ${st.bestExam.ok} / ${st.bestExam.tot} (${st.bestExam.pct}%)`;
+      } else {
+        document.getElementById('kpi-exam').textContent = '—';
+        document.getElementById('kpi-exam-sub').textContent = 'Меже: ≥32/40 (80%)';
+        document.getElementById('exam-best-line').textContent = '';
+      }
+
+      const validErrs = st.errors.filter(id => Q_BY_ID.has(id));
+      document.getElementById('kpi-err-cnt').textContent = validErrs.length;
+      document.getElementById('btn-err-go').disabled = validErrs.length === 0;
+      document.getElementById('btn-err-clr').classList.toggle('hidden', validErrs.length === 0);
+
+      renderBlocksTab(st);
+      renderTopicsTab(st);
+      renderCribFilters();
+      renderCrib();
+    }
+
+    function renderBlocksTab(st) {
+      const solvedSet = new Set(st.solvedIds);
+      const visList = QUESTIONS.filter(q => q.hasVisual);
+      const codeList = QUESTIONS.filter(q => q.hasCode);
+
+      const blocks = [
+        { key: 'b1', icon: '1️⃣', title: '1–40 сұрақтар', desc: 'Бастапқы 40 реал тест (код, Excel, Венн, HTML)', list: QUESTIONS.slice(0, 40) },
+        { key: 'b2', icon: '2️⃣', title: '41–80 сұрақтар', desc: '41–80 аралығы (Вектор, логика схемасы, CSS блок)', list: QUESTIONS.slice(40, 80) },
+        { key: 'b3', icon: '3️⃣', title: '81–120 сұрақтар', desc: '81–120 аралығы (ASCII, мектеп кестесі, Виженер, ОКРУГЛВВЕРХ)', list: QUESTIONS.slice(80, 120) },
+        { key: 'b4', icon: '4️⃣', title: '121–166 сұрақтар', desc: '121–166 аралығы (SQL employee, ақиқат кестесі, Python)', list: QUESTIONS.slice(120, 166) },
+        { key: 'bvis', icon: '🖼️', title: `Суретті & Кестелі`, desc: 'Барлық қолмен сызылған Excel, SQL, SVG сызбалары мен кестелер', list: visList, feat: true },
+        { key: 'bcode', icon: '💻', title: `Кодпен берілгендер`, desc: 'Python, HTML/CSS және SQL код блогы бар барлық тапсырмалар', list: codeList, feat: true },
+        { key: 'ball', icon: '🔥', title: 'Толық 166 Марафон', desc: '№1-ден №166-ға дейін бүкіл базаны бір деммен өту', list: QUESTIONS, feat: true }
+      ];
+
+      const grid = document.getElementById('blocks-grid');
+      grid.innerHTML = '';
+      blocks.forEach(b => {
+        const done = b.list.filter(q => solvedSet.has(q.id)).length;
+        const pct = b.list.length ? Math.round((done / b.list.length) * 100) : 0;
+        const best = st.bestBlock[b.key];
+        const card = document.createElement('div');
+        card.className = `glass block-card ${b.feat ? 'featured' : ''}`;
+        card.innerHTML = `
+          <div>
+            <div class="c-head">
+              <div class="c-ico">${b.icon}</div>
+              <span class="c-pill">${b.list.length} сұрақ</span>
+            </div>
+            <div class="c-title">${esc(b.title)}</div>
+            <div class="c-desc">${esc(b.desc)}</div>
+            <div style="display:flex;justify-content:space-between;font-size:11px;font-weight:700;color:var(--muted);margin-top:8px;">
+              <span>Игерілді: ${done}/${b.list.length}</span>
+              <span style="color:${best ? '#34d399' : 'var(--muted)'};">${best ? `🏆 ${best.pct}%` : `${pct}%`}</span>
+            </div>
+            <div class="prog-track"><div class="prog-fill" style="width:${pct}%"></div></div>
+          </div>
+          <div class="btn-row">
+            <button class="btn-pri" onclick="startBlock('${b.key}', false)">▶ Ретімен</button>
+            <button class="btn-sec" onclick="startBlock('${b.key}', true)">🔀 Аралас</button>
+          </div>`;
+        grid.appendChild(card);
+      });
+    }
+
+    function renderTopicsTab(st) {
+      const solvedSet = new Set(st.solvedIds);
+      const grid = document.getElementById('topics-grid');
+      grid.innerHTML = '';
+
+      TOPICS.forEach(t => {
+        const list = QUESTIONS.filter(q => t.tags.includes(q.topic));
+        const done = list.filter(q => solvedSet.has(q.id)).length;
+        const pct = list.length ? Math.round((done / list.length) * 100) : 0;
+        const best = st.bestBlock[`top_${t.id}`];
+
+        const card = document.createElement('div');
+        card.className = 'glass block-card';
+        card.innerHTML = `
+          <div>
+            <div class="c-head">
+              <div class="c-ico">${t.icon}</div>
+              <span class="c-pill">${list.length} сұрақ</span>
+            </div>
+            <div class="c-title">${esc(t.name)}</div>
+            <div class="c-desc">${esc(t.desc)}</div>
+            <div style="display:flex;justify-content:space-between;font-size:11px;font-weight:700;color:var(--muted);margin-top:8px;">
+              <span>Игерілді: ${done}/${list.length}</span>
+              <span style="color:${best ? '#34d399' : 'var(--muted)'};">${best ? `🏆 ${best.pct}%` : `${pct}%`}</span>
+            </div>
+            <div class="prog-track"><div class="prog-fill" style="width:${pct}%"></div></div>
+          </div>
+          <div class="btn-row">
+            <button class="btn-pri" onclick="startTopic('${t.id}', false)">▶ Ретімен</button>
+            <button class="btn-sec" onclick="startTopic('${t.id}', true)">🔀 Аралас</button>
+          </div>`;
+        grid.appendChild(card);
+      });
+    }
+
+    /* =========================================================================
+       6. CRIB SHEET / LIVE SEARCH (ALL 166 QUESTIONS + VISUALS + CODE)
+       ========================================================================= */
+    function renderCribFilters() {
+      const wrap = document.getElementById('crib-filters');
+      const pills = [
+        { id: 'all', lbl: `Барлығы (${QUESTIONS.length})` },
+        { id: 'visual', lbl: `🖼️ Суретті-Кестелі (${QUESTIONS.filter(q => q.hasVisual).length})` },
+        { id: 'code', lbl: `💻 Кодты (${QUESTIONS.filter(q => q.hasCode).length})` },
+        ...TOPICS.map(t => ({ id: t.id, lbl: `${t.icon} ${t.name.split(' ')[0]}` }))
+      ];
+      wrap.innerHTML = '';
+      pills.forEach(p => {
+        const b = document.createElement('button');
+        b.className = `f-pill ${state.cribFilter === p.id ? 'active' : ''}`;
+        b.textContent = p.lbl;
+        b.onclick = () => {
+          SFX.click();
+          state.cribFilter = p.id;
+          renderCribFilters();
+          renderCrib();
+        };
+        wrap.appendChild(b);
+      });
+    }
+
+    function renderCrib() {
+      const qStr = (document.getElementById('crib-search').value || '').trim().toLowerCase();
+      const numMatch = qStr.startsWith('#') ? qStr.slice(1) : qStr;
+
+      const filtered = QUESTIONS.filter(item => {
+        if (state.cribFilter === 'visual' && !item.hasVisual) return false;
+        if (state.cribFilter === 'code' && !item.hasCode) return false;
+        if (!['all', 'visual', 'code'].includes(state.cribFilter)) {
+          const tm = TOPICS.find(t => t.id === state.cribFilter);
+          if (tm && !tm.tags.includes(item.topic)) return false;
+        }
+        if (!qStr) return true;
+        if (String(item.id) === numMatch) return true;
+        const hay = `${item.id} ${item.q} ${item.code} ${item.opts.join(' ')}`.toLowerCase();
+        return hay.includes(qStr);
+      });
+
+      document.getElementById('crib-count').textContent = `Табылды: ${filtered.length} / ${QUESTIONS.length}`;
+      const listEl = document.getElementById('crib-list');
+      listEl.innerHTML = '';
+
+      if (!filtered.length) {
+        listEl.innerHTML = '<div class="glass" style="padding:30px;text-align:center;color:var(--muted);font-weight:700;">Іздеу бойынша сұрақ табылмады 🔍</div>';
+        return;
+      }
+
+      const frag = document.createDocumentFragment();
+      filtered.forEach(item => {
+        const tm = getTopicMeta(item.topic);
+        const div = document.createElement('div');
+        div.className = 'crib-card';
+        const correctRaw = item.opts[item.ans];
+        const correctDisplay = OPT_VISUALS[correctRaw]
+          ? `<span>${LETTERS[item.ans]})</span>${OPT_VISUALS[correctRaw]}`
+          : `${LETTERS[item.ans]}) ${esc(correctRaw)}`;
+
+        let html = `
+          <div class="crib-top">
+            <span class="id-tag">#${item.id}</span>
+            <span class="topic-tag">${tm.icon} ${esc(tm.name)}</span>
+          </div>
+          <div class="crib-q">${esc(item.q)}</div>`;
+        if (item.code) html += `<pre class="code-box">${esc(item.code)}</pre>`;
+        if (VISUALS[item.id]) html += `<div class="visual-stage" style="justify-content:flex-start;">${VISUALS[item.id]}</div>`;
+        html += `<div class="crib-ans">✅ ${correctDisplay}</div>`;
+        div.innerHTML = html;
+        frag.appendChild(div);
+      });
+      listEl.appendChild(frag);
+    }
+
+    /* =========================================================================
+       7. NAVIGATION & LAUNCHERS
+       ========================================================================= */
+    function setMode(m) {
+      SFX.click();
+      state.mode = m;
+      document.getElementById('btn-mode-game').className = m === 'game' ? 'mode-btn on-game' : 'mode-btn';
+      document.getElementById('btn-mode-study').className = m === 'study' ? 'mode-btn on-study' : 'mode-btn';
+      document.getElementById('mode-hint').innerHTML = m === 'game'
+        ? '🔥 <strong>Ойын:</strong> Әр сұраққа 40 сек таймер, жылдамдық бонусы және 🔥 серия ұпайы.'
+        : '📚 <strong>Жаттау:</strong> Таймерсіз, бірден тексеру және төменгі сұрақтар навигаторы.';
+    }
+
+    function switchTab(t) {
+      SFX.click();
+      state.tab = t;
+      ['blocks', 'topics', 'exam', 'crib'].forEach(k => {
+        document.getElementById(`panel-${k}`).classList.toggle('hidden', k !== t);
+        document.getElementById(`tab-${k}`).classList.toggle('active', k === t);
+      });
+    }
+
+    function toggleSound() {
+      state.soundOn = !state.soundOn;
+      if (state.soundOn) SFX.click();
+      document.getElementById('snd-ico-h').textContent = state.soundOn ? '🔊' : '🔇';
+      document.getElementById('snd-txt-h').textContent = state.soundOn ? 'Дыбыс: Қосулы' : 'Дыбыс: Өшірулі';
+      document.getElementById('btn-sound-quiz').textContent = state.soundOn ? '🔊' : '🔇';
+    }
+
+    function showScreen(id) {
+      ['screen-home', 'screen-quiz', 'screen-results'].forEach(s => {
+        document.getElementById(s).classList.toggle('hidden', s !== id);
+      });
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function goHome() {
+      stopTimer();
+      SFX.click();
+      renderDashboard();
+      showScreen('screen-home');
+    }
+
+    function startBlock(key, doShuffle) {
+      const map = {
+        b1: { title: '📦 1–40 сұрақтар', list: QUESTIONS.slice(0, 40) },
+        b2: { title: '📦 41–80 сұрақтар', list: QUESTIONS.slice(40, 80) },
+        b3: { title: '📦 81–120 сұрақтар', list: QUESTIONS.slice(80, 120) },
+        b4: { title: '📦 121–166 сұрақтар', list: QUESTIONS.slice(120, 166) },
+        bvis: { title: '🖼️ Суретті & Кестелі (16)', list: QUESTIONS.filter(q => q.hasVisual) },
+        bcode: { title: '💻 Кодпен берілгендер', list: QUESTIONS.filter(q => q.hasCode) },
+        ball: { title: '🔥 Толық 166 Марафон', list: [...QUESTIONS] }
+      };
+      const pick = map[key];
+      if (!pick || !pick.list.length) return;
+      launchQuiz({
+        type: 'normal',
+        key,
+        title: doShuffle ? `${pick.title} (Аралас)` : pick.title,
+        instant: true,
+        list: doShuffle ? shuffle(pick.list) : [...pick.list]
+      });
+    }
+
+    function startTopic(tid, doShuffle) {
+      const tm = TOPICS.find(t => t.id === tid);
+      if (!tm) return;
+      const list = QUESTIONS.filter(q => tm.tags.includes(q.topic));
+      launchQuiz({
+        type: 'normal',
+        key: `top_${tid}`,
+        title: `${tm.icon} ${tm.name}`,
+        instant: true,
+        list: doShuffle ? shuffle(list) : list
+      });
+    }
+
+    function startExam() {
+      const instant = document.getElementById('exam-instant-chk').checked;
+      launchQuiz({
+        type: 'exam',
+        key: 'exam40',
+        title: '🏆 Емтихан (40 сұрақ • 60 мин)',
+        instant,
+        list: shuffle(QUESTIONS).slice(0, 40)
+      });
+    }
+
+    function startErrorBank() {
+      const st = loadStore();
+      const list = st.errors.map(id => Q_BY_ID.get(id)).filter(Boolean);
+      if (!list.length) return;
+      launchQuiz({
+        type: 'errors',
+        key: null,
+        title: `🔄 Қателер банкі (${list.length} сұрақ)`,
+        instant: true,
+        list: shuffle(list)
+      });
+    }
+
+    function launchQuiz(cfg) {
+      SFX.click();
+      stopTimer();
+      const s = state.session;
+      s.lastCfg = cfg;
+      s.type = cfg.type;
+      s.key = cfg.key;
+      s.title = cfg.title;
+      s.instant = cfg.instant;
+      s.list = cfg.list;
+      s.idx = 0;
+      s.ans = new Array(cfg.list.length).fill(null);
+      s.flags = new Array(cfg.list.length).fill(false);
+      s.score = 0;
+      s.streak = 0;
+      s.bestStreak = 0;
+      s.startedAt = Date.now();
+
+      const isExam = s.type === 'exam';
+      const isStudy = !isExam && state.mode === 'study';
+
+      document.getElementById('hud-title').textContent = s.title;
+      document.getElementById('hud-timer-box').classList.toggle('hidden', isStudy);
+      document.getElementById('timer-bar-wrap').classList.toggle('hidden', isStudy || isExam);
+      document.getElementById('hud-score-box').classList.toggle('hidden', isStudy || (isExam && !s.instant));
+      document.getElementById('btn-flag').classList.toggle('hidden', !isExam);
+      document.getElementById('btn-map').classList.toggle('hidden', !isExam);
+      document.getElementById('btn-skip').classList.toggle('hidden', !isExam);
+      document.getElementById('btn-finish-top').classList.toggle('hidden', !isExam);
+      document.getElementById('btn-prev').classList.toggle('hidden', !isStudy && !isExam);
+      document.getElementById('nav-wrap').classList.toggle('hidden', !isStudy && !isExam);
+
+      showScreen('screen-quiz');
+      if (isExam) {
+        s.timeLeft = EXAM_SEC;
+        startExamTimer();
+      }
+      renderQ();
+    }
+
+    function restartQuiz() {
+      if (state.session.type === 'exam') startExam();
+      else if (state.session.lastCfg) launchQuiz(state.session.lastCfg);
+    }
+
+    function retryWrong() {
+      const s = state.session;
+      const wrong = s.list.filter((q, i) => s.ans[i] !== q.ans);
+      if (!wrong.length) return;
+      launchQuiz({
+        type: 'errors',
+        key: null,
+        title: `🔄 Қателерді қайталау (${wrong.length})`,
+        instant: true,
+        list: wrong
+      });
+    }
+
+    /* =========================================================================
+       8. QUIZ GAMEPLAY RENDERING & TIMERS
+       ========================================================================= */
+    function stopTimer() {
+      if (state.session.timer) {
+        clearInterval(state.session.timer);
+        state.session.timer = null;
+      }
+    }
+
+    function renderQ() {
+      const s = state.session;
+      if (s.type !== 'exam') stopTimer();
+
+      const q = s.list[s.idx];
+      const tot = s.list.length;
+      const ua = s.ans[s.idx];
+      const answered = ua !== null;
+      const isExam = s.type === 'exam';
+      const isStudy = !isExam && state.mode === 'study';
+      const reveal = answered && s.instant;
+
+      document.getElementById('hud-pos').textContent = `${s.idx + 1} / ${tot}`;
+      document.getElementById('hud-qid').textContent = `#${q.id}`;
+      document.getElementById('hud-score').textContent = s.score.toLocaleString('ru-RU');
+
+      const doneCnt = s.ans.filter(a => a !== null).length;
+      document.getElementById('hud-prog').style.width = `${(doneCnt / tot) * 100}%`;
+
+      // Flag button state
+      const fBtn = document.getElementById('btn-flag');
+      fBtn.classList.toggle('flagged', Boolean(s.flags[s.idx]));
+
+      // Streak badge
+      const sb = document.getElementById('hud-streak-box');
+      if (s.instant && !isStudy && s.streak >= 2) {
+        sb.classList.remove('hidden');
+        document.getElementById('hud-streak').textContent = s.streak;
+      } else {
+        sb.classList.add('hidden');
+      }
+
+      // Topic & Mode labels
+      const tm = getTopicMeta(q.topic);
+      document.getElementById('q-topic-badge').textContent = `${tm.icon} ${tm.name}`;
+      document.getElementById('q-mode-lbl').textContent = isExam
+        ? (s.instant ? 'Емтихан (Бірден тексеру)' : 'Нақты емтихан')
+        : (isStudy ? '📚 Жаттау режимі' : '🎮 Ойын режимі');
+
+      // Question text
+      document.getElementById('q-text').textContent = q.q;
+
+      // Code block
+      const codeEl = document.getElementById('q-code');
+      if (q.code) {
+        codeEl.classList.remove('hidden');
+        codeEl.textContent = q.code;
+      } else {
+        codeEl.classList.add('hidden');
+      }
+
+      // Visual block (Excel/SQL/Truth/SVG)
+      const visEl = document.getElementById('q-visual');
+      if (VISUALS[q.id]) {
+        visEl.classList.remove('hidden');
+        visEl.innerHTML = VISUALS[q.id];
+      } else {
+        visEl.classList.add('hidden');
+        visEl.innerHTML = '';
+      }
+
+      // 4 Answer Option Tiles
+      const grid = document.getElementById('opts-grid');
+      grid.innerHTML = '';
+
+      q.opts.forEach((opt, i) => {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        let cls = `tile t-${i % 4}`;
+
+        if (reveal) {
+          btn.disabled = true;
+          if (i === q.ans) cls += ' t-ok';
+          else if (i === ua) cls += ' t-err';
+          else cls += ' t-dim';
+        } else if (answered && !s.instant && i === ua) {
+          cls += ' t-sel';
+        }
+
+        btn.className = cls;
+        btn.onclick = () => pickOpt(i);
+
+        let mark = '';
+        if (reveal) {
+          if (i === q.ans) mark = '✓';
+          else if (i === ua) mark = '✕';
+        } else if (answered && !s.instant && i === ua) {
+          mark = '●';
+        }
+
+        btn.innerHTML = `
+          <span class="t-let">${LETTERS[i]}</span>
+          <span class="t-lbl">${renderOptHTML(opt)}</span>
+          <span class="t-mk">${mark}</span>`;
+        grid.appendChild(btn);
+      });
+
+      // Bottom buttons & feedback
+      const fb = document.getElementById('q-feedback');
+      const nextB = document.getElementById('btn-next');
+      const prevB = document.getElementById('btn-prev');
+
+      nextB.textContent = s.idx === tot - 1 ? 'Аяқтау 🏁' : 'Келесі →';
+
+      if (isStudy || isExam) {
+        prevB.disabled = s.idx === 0;
+        nextB.disabled = false;
+        renderNavGrid();
+      } else {
+        nextB.disabled = !answered;
+      }
+
+      if (!answered) {
+        fb.style.color = 'var(--soft)';
+        fb.textContent = 'Жауап нұсқасын таңдаңыз (A–D немесе 1–4)';
+        if (!isStudy && !isExam) startGameTimer();
+      } else if (!s.instant) {
+        fb.style.color = '#c4b5fd';
+        fb.textContent = `Таңдалды: ${LETTERS[ua]} (соңында тексеріледі — басқасын таңдап өзгертуге болады)`;
+      } else if (ua === q.ans) {
+        fb.style.color = '#6ee7b7';
+        fb.textContent = '✅ Дұрыс жауап!';
+      } else if (ua === -1) {
+        fb.style.color = '#fde68a';
+        fb.textContent = `⏰ Уақыт бітті! Дұрыс жауап: ${LETTERS[q.ans]}`;
+      } else {
+        fb.style.color = '#fda4af';
+        const showTxt = OPT_VISUALS[q.opts[q.ans]] ? LETTERS[q.ans] : `${LETTERS[q.ans]}) ${q.opts[q.ans]}`;
+        fb.textContent = `❌ Қате! Дұрыс жауап: ${showTxt}`;
+      }
+    }
+
+    function renderNavGrid() {
+      const s = state.session;
+      const done = s.ans.filter(a => a !== null).length;
+      document.getElementById('nav-done').textContent = done;
+      document.getElementById('nav-tot').textContent = s.list.length;
+
+      const wrap = document.getElementById('nav-grid');
+      wrap.innerHTML = '';
+      s.list.forEach((q, i) => {
+        const b = document.createElement('button');
+        b.type = 'button';
+        b.textContent = i + 1;
+        b.className = navDotClass(s, q, i);
+        b.onclick = () => { SFX.click(); s.idx = i; renderQ(); };
+        wrap.appendChild(b);
+      });
+    }
+
+    function navDotClass(s, q, i) {
+      let cls = 'ndot';
+      const a = s.ans[i];
+      if (a !== null) {
+        if (!s.instant) cls += ' neu';
+        else cls += (a === q.ans ? ' ok' : ' err');
+      }
+      if (s.flags[i]) cls += ' flg';
+      if (i === s.idx) cls += ' cur';
+      return cls;
+    }
+
+    function toggleFlag() {
+      const s = state.session;
+      SFX.click();
+      s.flags[s.idx] = !s.flags[s.idx];
+      document.getElementById('btn-flag').classList.toggle('flagged', s.flags[s.idx]);
+      renderNavGrid();
+    }
+
+    function openMapDrawer() {
+      SFX.click();
+      const s = state.session;
+      const g = document.getElementById('drawer-grid');
+      g.innerHTML = '';
+      s.list.forEach((q, i) => {
+        const b = document.createElement('button');
+        b.type = 'button';
+        b.textContent = i + 1;
+        b.className = navDotClass(s, q, i);
+        b.onclick = () => { SFX.click(); s.idx = i; closeModal('drawer-map'); renderQ(); };
+        g.appendChild(b);
+      });
+      openModal('drawer-map');
+    }
+
+    function startGameTimer() {
+      const s = state.session;
+      s.timeLeft = GAME_SEC;
+      updateTimerUI();
+      s.timer = setInterval(() => {
+        s.timeLeft--;
+        updateTimerUI();
+        if (s.timeLeft <= 0) {
+          stopTimer();
+          if (s.ans[s.idx] === null) {
+            const q = s.list[s.idx];
+            s.ans[s.idx] = -1;
+            s.streak = 0;
+            trackAnswer(q.id, false, s.type === 'errors');
+            SFX.err();
+            renderQ();
+          }
+        }
+      }, 1000);
+    }
+
+    function startExamTimer() {
+      updateTimerUI();
+      state.session.timer = setInterval(() => {
+        state.session.timeLeft--;
+        updateTimerUI();
+        if (state.session.timeLeft <= 0) {
+          stopTimer();
+          finishQuiz();
+        }
+      }, 1000);
+    }
+
+    function updateTimerUI() {
+      const s = state.session;
+      const isExam = s.type === 'exam';
+      document.getElementById('hud-timer').textContent = isExam ? fmtTime(s.timeLeft) : `${s.timeLeft}с`;
+      const warn = isExam ? s.timeLeft <= 300 : s.timeLeft <= 10;
+      document.getElementById('hud-timer-box').classList.toggle('chip-warn', warn);
+      if (!isExam) {
+        document.getElementById('timer-bar-fg').style.width = `${Math.max(0, (s.timeLeft / GAME_SEC) * 100)}%`;
+      }
+    }
+
+    function popScore(pts) {
+      const host = document.getElementById('pts-host');
+      const d = document.createElement('div');
+      d.className = 'pts-pop';
+      d.textContent = `+${pts}`;
+      host.appendChild(d);
+      setTimeout(() => d.remove(), 900);
+    }
+
+    function pickOpt(i) {
+      const s = state.session;
+      const q = s.list[s.idx];
+
+      if (!s.instant) {
+        SFX.click();
+        s.ans[s.idx] = i;
+        renderQ();
+        return;
+      }
+
+      if (s.ans[s.idx] !== null) return;
+      if (s.type !== 'exam') stopTimer();
+
+      s.ans[s.idx] = i;
+      const isOk = i === q.ans;
+      trackAnswer(q.id, isOk, s.type === 'errors');
+
+      if (isOk) {
+        s.streak++;
+        if (s.streak > s.bestStreak) s.bestStreak = s.streak;
+        if (s.type === 'exam' || state.mode === 'game') {
+          const spd = s.type === 'exam' ? 150 : Math.round((s.timeLeft / GAME_SEC) * 400);
+          const str = Math.min(s.streak - 1, 5) * 80;
+          const pts = 1000 + spd + str;
+          s.score += pts;
+          popScore(pts);
+        } else {
+          s.score += 100;
+        }
+        SFX.ok(s.streak);
+      } else {
+        s.streak = 0;
+        SFX.err();
+      }
+      renderQ();
+    }
+
+    function nextQ() {
+      const s = state.session;
+      SFX.click();
+      if (s.idx < s.list.length - 1) {
+        s.idx++;
+        renderQ();
+      } else {
+        requestFinish();
+      }
+    }
+
+    function prevQ() {
+      const s = state.session;
+      if (s.idx > 0) {
+        SFX.click();
+        s.idx--;
+        renderQ();
+      }
+    }
+
+    function requestFinish() {
+      const s = state.session;
+      if (s.type === 'exam') {
+        const empty = s.ans.filter(a => a === null).length;
+        const flagged = s.flags.filter(Boolean).length;
+        document.getElementById('finish-msg').textContent = empty > 0
+          ? `Жауап берілмеген ${empty} сұрақ${flagged ? ` және белгіленген ${flagged} сұрақ` : ''} бар. Емтиханды аяқтап, нәтижені есептейміз бе?`
+          : 'Барлық 40 сұраққа жауап берілді! Емтиханды аяқтап, нәтижеңізді көресіз бе?';
+        openModal('modal-finish');
+      } else {
+        finishQuiz();
+      }
+    }
+
+    /* =========================================================================
+       9. FINISH QUIZ, REVIEW & CANVAS CONFETTI
+       ========================================================================= */
+    function finishQuiz() {
+      stopTimer();
+      const s = state.session;
+      const elapsed = Math.max(1, Math.round((Date.now() - s.startedAt) / 1000));
+      const tot = s.list.length;
+      let ok = 0;
+
+      if (!s.instant) {
+        let cur = 0;
+        s.bestStreak = 0;
+        s.score = 0;
+        s.list.forEach((q, i) => {
+          const good = s.ans[i] === q.ans;
+          trackAnswer(q.id, good, false);
+          if (good) {
+            ok++; cur++;
+            if (cur > s.bestStreak) s.bestStreak = cur;
+            s.score += 1000 + Math.min(cur - 1, 5) * 80;
+          } else {
+            cur = 0;
+          }
+        });
+      } else {
+        s.list.forEach((q, i) => { if (s.ans[i] === q.ans) ok++; });
+      }
+
+      const wrong = tot - ok;
+      const pct = tot ? Math.round((ok / tot) * 100) : 0;
+      const passed = s.type === 'exam' ? ok >= 32 : pct >= 80;
+
+      saveBest(s.key, ok, tot, pct);
+
+      if (passed) { SFX.win(); runConfetti(); }
+      else SFX.click();
+
+      document.getElementById('res-pct').textContent = `${pct}%`;
+      document.getElementById('res-ico').textContent = passed ? '🏆' : pct >= 60 ? '🔥' : '💪';
+      document.getElementById('res-title').textContent = passed ? 'Керемет нәтиже!' : pct >= 60 ? 'Жақсы нәтиже!' : 'Қателермен жұмыс жасайық!';
+      document.getElementById('res-sub').textContent = s.title;
+      document.getElementById('res-ok').textContent = `${ok} / ${tot}`;
+      document.getElementById('res-pts').textContent = s.score.toLocaleString('ru-RU');
+      document.getElementById('res-strk').textContent = `🔥 ${s.bestStreak}`;
+      document.getElementById('res-time').textContent = fmtTime(elapsed);
+
+      const bdg = document.getElementById('res-badge');
+      if (s.type === 'exam') {
+        bdg.classList.remove('hidden');
+        if (ok >= 32) {
+          bdg.style.background = 'rgba(16,185,129,0.22)';
+          bdg.style.border = '1px solid #10b981';
+          bdg.style.color = '#6ee7b7';
+          bdg.textContent = `✅ ЕМТИХАННАН ӨТТІҢІЗ! (${ok}/40 • ≥32 меже)`;
+        } else {
+          bdg.style.background = 'rgba(245,158,11,0.2)';
+          bdg.style.border = '1px solid #f59e0b';
+          bdg.style.color = '#fde68a';
+          bdg.textContent = `🎯 32/40 межесіне тағы ${32 - ok} дұрыс жауап қажет`;
+        }
+      } else {
+        bdg.classList.add('hidden');
+      }
+
+      document.getElementById('res-err-n').textContent = wrong;
+      document.getElementById('btn-retry-err').classList.toggle('hidden', wrong === 0);
+
+      showScreen('screen-results');
+
+      const circ = 2 * Math.PI * 52;
+      const g = document.getElementById('res-gauge');
+      g.style.strokeDashoffset = circ;
+      requestAnimationFrame(() => setTimeout(() => { g.style.strokeDashoffset = circ * (1 - pct / 100); }, 60));
+
+      renderReview('all');
+    }
+
+    function renderReview(filter) {
+      document.getElementById('rev-btn-all').classList.toggle('active', filter === 'all');
+      document.getElementById('rev-btn-err').classList.toggle('active', filter === 'wrong');
+
+      const s = state.session;
+      const list = document.getElementById('rev-list');
+      list.innerHTML = '';
+      let shown = 0;
+
+      s.list.forEach((q, i) => {
+        const ua = s.ans[i];
+        const good = ua === q.ans;
+        if (filter === 'wrong' && good) return;
+        shown++;
+
+        const d = document.createElement('details');
+        d.className = `rev-item ${good ? 'rev-ok' : 'rev-err'}`;
+        if (!good) d.open = true;
+
+        const uHtml = ua === null ? 'Белгіленбеген' : ua === -1 ? 'Уақыт бітті' : `${LETTERS[ua]}) ${renderOptHTML(q.opts[ua])}`;
+        const rHtml = `${LETTERS[q.ans]}) ${renderOptHTML(q.opts[q.ans])}`;
+
+        let body = '';
+        if (q.code) body += `<pre class="code-box">${esc(q.code)}</pre>`;
+        if (VISUALS[q.id]) body += `<div class="visual-stage" style="justify-content:flex-start;">${VISUALS[q.id]}</div>`;
+        body += `<div style="margin-top:8px;font-size:13.5px;font-weight:700;color:${good?'#6ee7b7':'#fda4af'};">Сіздің жауабыңыз: ${uHtml}</div>`;
+        if (!good) body += `<div style="margin-top:6px;font-size:13.5px;font-weight:800;color:#6ee7b7;">Дұрыс жауап: ${rHtml}</div>`;
+
+        d.innerHTML = `
+          <summary>
+            <span>${good ? '✅' : '❌'} ${i + 1}. <span style="color:#a78bfa;font-size:12px;">[#${q.id}]</span> ${esc(q.q)}</span>
+            <span style="font-size:12px;color:var(--muted);">▼</span>
+          </summary>
+          <div style="margin-top:10px;padding-top:10px;border-top:1px solid rgba(255,255,255,0.08);">${body}</div>`;
+        list.appendChild(d);
+      });
+
+      if (!shown) {
+        list.innerHTML = '<div style="text-align:center;padding:24px;color:#6ee7b7;font-weight:800;">🎉 Қате жоқ! Барлық сұрақ дұрыс!</div>';
+      }
+    }
+
+    /* Canvas Confetti */
+    let confRaf = null;
+    function runConfetti() {
+      const c = document.getElementById('confetti-canvas');
+      const ctx = c.getContext('2d');
+      c.classList.remove('hidden');
+      const resize = () => { c.width = window.innerWidth; c.height = window.innerHeight; };
+      resize();
+      window.addEventListener('resize', resize);
+
+      const colors = ['#7c3aed', '#06b6d4', '#10b981', '#f59e0b', '#f43f5e', '#3b82f6'];
+      const pts = Array.from({ length: 130 }, () => ({
+        x: Math.random() * c.width,
+        y: -20 - Math.random() * c.height * 0.5,
+        w: 7 + Math.random() * 6,
+        h: 10 + Math.random() * 8,
+        vx: (Math.random() - 0.5) * 4.5,
+        vy: 2.5 + Math.random() * 4.5,
+        rot: Math.random() * Math.PI * 2,
+        vr: (Math.random() - 0.5) * 0.22,
+        col: colors[Math.floor(Math.random() * colors.length)]
+      }));
+
+      const t0 = performance.now();
+      if (confRaf) cancelAnimationFrame(confRaf);
+      function tick(now) {
+        const dt = now - t0;
+        ctx.clearRect(0, 0, c.width, c.height);
+        ctx.globalAlpha = dt > 3200 ? Math.max(0, 1 - (dt - 3200) / 1200) : 1;
+        pts.forEach(p => {
+          p.x += p.vx; p.y += p.vy; p.rot += p.vr;
+          ctx.save(); ctx.translate(p.x, p.y); ctx.rotate(p.rot);
+          ctx.fillStyle = p.col; ctx.fillRect(-p.w / 2, -p.h / 2, p.w, p.h);
+          ctx.restore();
+        });
+        if (dt < 4400) confRaf = requestAnimationFrame(tick);
+        else { ctx.clearRect(0, 0, c.width, c.height); c.classList.add('hidden'); window.removeEventListener('resize', resize); }
+      }
+      confRaf = requestAnimationFrame(tick);
+    }
+
+    /* =========================================================================
+       10. MODALS & KEYBOARD SHORTCUTS
+       ========================================================================= */
+    function openModal(id) { document.getElementById(id).classList.remove('hidden'); }
+    function closeModal(id) { document.getElementById(id).classList.add('hidden'); }
+    function bgClose(ev, id) { if (ev.target && ev.target.id === id) closeModal(id); }
+
+    function confirmClearErrors() {
+      const st = loadStore();
+      st.errors = [];
+      saveStore(st);
+      closeModal('modal-clear-err');
+      renderDashboard();
+      toast('🗑 Қателер банкі тазаланды.');
+    }
+
+    document.addEventListener('keydown', e => {
+      const tag = document.activeElement && document.activeElement.tagName;
+      if (tag === 'INPUT' || tag === 'TEXTAREA') return;
+      if (e.key === 'Escape') {
+        ['modal-exit', 'modal-finish', 'modal-clear-err', 'drawer-map'].forEach(closeModal);
+        return;
+      }
+      const inQuiz = !document.getElementById('screen-quiz').classList.contains('hidden');
+      const modalUp = ['modal-exit', 'modal-finish', 'drawer-map'].some(id => !document.getElementById(id).classList.contains('hidden'));
+      if (!inQuiz || modalUp) return;
+
+      const k = e.key.toLowerCase();
+      const kMap = { '1': 0, '2': 1, '3': 2, '4': 3, 'a': 0, 'b': 1, 'c': 2, 'd': 3 };
+      if (k in kMap) {
+        e.preventDefault();
+        pickOpt(kMap[k]);
+      } else if (e.key === 'Enter' || e.key === ' ') {
+        const nb = document.getElementById('btn-next');
+        if (!nb.disabled) { e.preventDefault(); nextQ(); }
+      } else if (e.key === 'ArrowRight') {
+        const nb = document.getElementById('btn-next');
+        if (!nb.disabled) { e.preventDefault(); nextQ(); }
+      } else if (e.key === 'ArrowLeft') {
+        const pb = document.getElementById('btn-prev');
+        if (!pb.classList.contains('hidden') && !pb.disabled) { e.preventDefault(); prevQ(); }
+      }
+    });
+
+    window.addEventListener('load', () => {
+      renderDashboard();
+    });
+  </script>
+</body>
+</html>
